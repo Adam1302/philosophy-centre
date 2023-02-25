@@ -1,0 +1,2 @@
+rootProject.name = "Philosophy Centre"
+include ':app'

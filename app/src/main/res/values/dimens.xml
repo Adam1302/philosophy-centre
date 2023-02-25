@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="heading1_textSize">40dp</dimen>
+    <dimen name="heading1_height">75dp</dimen>
+    <dimen name="heading1_width">150dp</dimen>
+    <dimen name="heading2_textSize">30dp</dimen>
+    <dimen name="heading2_height">60dp</dimen>
+    <dimen name="heading2_width">125dp</dimen>
+</resources>

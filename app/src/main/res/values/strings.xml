@@ -1,0 +1,759 @@
+<resources>
+    <string name="app_name">Philosophy Centre</string>
+    <string name="welcome_message">Welcome to the Philosophy Centre</string>
+    <string name="philosophers">Philosophers</string>
+    <string name="quote_scroller">Quote Scroller</string>
+    <string name="philosophical_branches">Philosophical Branches</string>
+    <string name="schools_of_thought">Schools of Thought</string>
+
+    <string name="plato_quote_disclaimer">Many quotes attributed to Plato do not accurately represent
+        his dispositions. In his works, very rarely did Plato express explicitly his beliefs;
+        rather, he preferred writing dialogues in which participants explored competing ideas, and,
+        in doing so, built towards a more extensive and precise conclusion. Thus, Plato spent a majority
+        of his works pondering ideas he ultimately did not agree with, but rather wanted to analyze
+        to find snippets of truth, resulting in a great number of attributed quotes stemming from such
+        concentrated and conscious reflections rather than genuine views. It is therefore preferrable to,
+        as Plato himself would have it, refrain from mindlessly quoting, and instead read and consider
+        his intellectual journeys in their fullness through his dialogues.</string>
+
+    <!-- Branch Description -->
+    <string name="ethics_desc">
+        Ethics Description
+    </string>
+    <string name="aesthetics_desc">
+        Aesthetics Description
+    </string>
+    <string name="political_philosophy_desc">
+        Political Philosophy Description
+    </string>
+    <string name="epistemology_desc">
+        Epistemology Description
+    </string>
+    <string name="axiology_desc">
+        Axiology Description
+    </string>
+    <string name="metaphysics_desc">
+        Metaphysics Description
+    </string>
+    <string name="logic_desc">
+        Logic Description
+    </string>
+
+    <!-- Philosopher Description -->
+    <string name="nietzsche_desc">
+        Nietzsche Description
+    </string>
+    <string name="aristotle_desc">
+        Aristotle Description
+    </string>
+    <string name="socrates_desc">
+        Socrates Description
+    </string>
+    <string name="plato_desc">
+        Plato Description
+    </string>
+    <string name="aurelius_desc">
+        Aurelius Description
+    </string>
+    <string name="christ_desc">
+        Christ Description
+    </string>
+    <string name="kindi_desc">
+        Kindi Description
+    </string>
+    <string name="boethius_desc">
+        Boethius Description
+    </string>
+    <string name="aquinas_desc">
+        Aquinas Description
+    </string>
+    <string name="montaigne_desc">
+        Montaigne Description
+    </string>
+    <string name="bacon_desc">
+        Bacon Description
+    </string>
+    <string name="hobbes_desc">
+        Hobbes Description
+    </string>
+    <string name="pascal_desc">
+        Pascal Description
+    </string>
+    <string name="spinoza_desc">
+        Spinoza Description
+    </string>
+    <string name="newton_desc">
+        Newton Description
+    </string>
+    <string name="voltaire_desc">
+        Voltaire Description
+    </string>
+    <string name="hume_desc">
+        Hume Description
+    </string>
+    <string name="kant_desc">
+        Kant Description
+    </string>
+    <string name="rousseau_desc">
+        Rousseau Description
+    </string>
+    <string name="bentham_desc">
+        Bentham Description
+    </string>
+    <string name="schiller_desc">
+        Schiller Description
+    </string>
+
+    <!--Quotes-->
+    <string name="aristotle1">It is the mark of an educated mind to be able to entertain a thought without accepting it.</string>
+    <string name="aristotle2">Hope is a waking dream.</string>
+    <string name="aristotle3">No great mind has ever existed without a touch of madness.</string>
+    <string name="aristotle4">Anybody can become angry — that is easy, but to be angry with the right
+        person and to the right degree and at the right time and for the right purpose, and in the
+        right way — that is not within everybody\'s power and is not easy.</string>
+    <string name="aristotle5">A friend to all is a friend to none.</string>
+    <string name="aristotle6">Those who educate children well are more to be honored than they who
+        produce them; for these only gave them life, those the art of living well.</string>
+    <string name="aristotle7">To perceive is to suffer.</string>
+    <string name="aristotle8">The educated differ from the uneducated as much as the living differ from the dead.</string>
+    <string name="aristotle9">I count him braver who overcomes his desires than him who conquers his
+        enemies, for the hardest victory is over self.</string>
+    <string name="aristotle10">The aim of art is to represent not the outward appearance of things,
+        but their inward significance.</string>
+    <string name="aristotle11">It is not enough to win a war; it is more important to organize the peace.</string>
+    <string name="aristotle12">I have gained this by philosophy; I do without being ordered what some
+        are constrained to do by their fear of the law.</string>
+    <string name="aristotle13">Great men are always of a nature originally melancholy.</string>
+
+    <string name="socrates1">I cannot teach anybody anything. I can only make them think.</string>
+    <string name="socrates2">To find yourself, think for yourself.</string>
+    <string name="socrates3">He who is not contented with what he has, would not be contented with
+        what he would like to have.</string>
+    <string name="socrates4">Be slow to fall into friendship, but when you are in, continue firm and constant.</string>
+    <string name="socrates5">If you don\'t get what you want, you suffer; if you get what you don\'t want,
+        you suffer; even when you get exactly what you want, you still suffer because you can\'t hold on to it forever.
+        Your mind is your predicament. It wants to be free of change.
+        Free of pain, free of the obligations of life and death.
+        But change is law and no amount of pretending will alter that reality.</string>
+    <string name="socrates6">The secret of happiness, you see, is not found in seeking more,
+        but in developing the capacity to enjoy less.</string>
+    <string name="socrates7">Let him who would move the world first move himself.</string>
+    <string name="socrates8">Employ your time in improving yourself by other men\'s writings so that
+        you shall come easily by what others have labored hard for.</string>
+    <string name="socrates9">We do not know — neither the sophists, nor the orators, nor the artists, nor I
+        — what the True, the Good, and the Beautiful are. But there is this difference between us:
+        although these people know nothing, they all believe they know something;
+        whereas, I, if I know nothing, at least have no doubts about it.
+        As a result, all this superiority in wisdom which the oracle has attributed to me reduces
+        itself to the single point that I am strongly convinced that I am ignorant of what I do not know.</string>
+
+    <string name="aurelius1">You have power over your mind - not outside events. Realize this, and you will find strength.</string>
+    <string name="aurelius2">If you are distressed by anything external, the pain is not due to the thing itself,
+        but to your estimate of it; and this you have the power to revoke at any moment.</string>
+    <string name="aurelius3">The best revenge is to be unlike him who performed the injury.</string>
+    <string name="aurelius4">The soul becomes dyed with the colour of its thoughts.</string>
+    <string name="aurelius5">If someone is able to show me that what I think or do is not right,
+        I will happily change, for I seek the truth, by which no one was ever truly harmed.
+        It is the person who continues in his self-deception and ignorance who is harmed.</string>
+    <string name="aurelius6">Whenever you are about to find fault with someone, ask yourself the
+        following question: What fault of mine most nearly resembles the one I am about to criticize?</string>
+    <string name="aurelius7">The object of life is not to be on the side of the majority, but to
+        escape finding oneself in the ranks of the insane.</string>
+    <string name="aurelius8">How much more grievous are the consequences of anger than the causes of it.</string>
+    <string name="aurelius9">How much time he gains who does not look to see what his neighbour says
+        or does or thinks, but only at what he does himself, to make it just and holy.</string>
+    <string name="aurelius10">What we do now echoes in eternity.</string>
+    <string name="aurelius11">The impediment to action advances action. What stands in the way becomes the way.</string>
+    <string name="aurelius12">Perfection of character is this: to live each day as if it were your last, without frenzy, without apathy, without pretence.</string>
+
+
+    <string name="christ1">Ask and it will be given to you; search, and you will find; knock, and the door will be opened for you.</string>
+    <string name="christ2">Do not be anxious about tomorrow, for tomorrow will be anxious for itself.
+        Let the day\'s own trouble be sufficient for the day.</string>
+    <string name="christ3">For everyone who exalts himself will be humbled, and everyone who humbles himself will be exalted.</string>
+    <string name="christ4">Let the one among you who is without sin be the first to cast a stone.</string>
+    <string name="christ5">For what shall it profit a man, if he gain the whole world, and suffer the loss of his soul?</string>
+    <string name="christ6">Man shall not live by bread alone, but by every word that proceeds from the mouth of God.</string>
+    <string name="christ7">If you love those who love you, what credit is that to you? For even
+        sinners love those who love them. And if you do good to those who do good to you, what
+        credit is that to you? For even sinners do the same.</string>
+    <string name="christ8">Therefore when thou doest thine alms, do not sound a trumpet before thee,
+        as the hypocrites do in the synagogues and in the streets, that they may have glory of men.
+        Verily I say unto you, They have their reward</string>
+
+    <string name="kindi1">One must not be afraid of new ideas, no matter the source.
+        And we must never fear the truth, even when it pains us.</string>
+    <string name="kindi2">We ought not to be embarrassed of appreciating the truth and of obtaining
+        it wherever it comes from, even if it comes from races distant and nations different from us.
+        Nothing should be dearer to the seeker of truth than the truth itself, and there is no
+        deterioration of the truth, nor belittling either of one who speaks it or conveys it.</string>
+    <string name="kindi3">The noblest part of philosophy and the highest in rank is the First Philosophy,
+        i.e., knowledge of the first truth, which is the cause of all truth. Therefore it is necessary
+        that the most perfect and noble philosopher will be the man who fully understands this most
+        noble knowledge; for the knowledge of the cause is more noble than the knowledge of the effect,
+        since we have complete knowledge of every knowable, only when we have attained full knowledge
+        of its cause.</string>
+    <string name="kindi4">To disarm a zealot, teach him truth by precept, and mildness by example.</string>
+
+    <string name="boethius1">Who would give a law to lovers? Love is unto itself a higher law.</string>
+    <string name="boethius2">The now that passes produces time, the now that remains produces eternity.</string>
+    <string name="boethius3">Man towers above the rest of creation so long as he realizes his own nature,
+        and when he forgets it, he sinks lower than the beasts.</string>
+    <string name="boethius4">And it is because you don\'t know the end and purpose of things that you
+        think the wicked and the criminal have power and happiness.</string>
+    <string name="boethius5">Contemplate the extent and stability of the heavens,
+        and then at last cease to admire worthless things.</string>
+    <string name="boethius6">One\'s virtue is all that one truly has,
+        because it is not imperiled by the vicissitudes of fortune.</string>
+
+
+    <string name="aquinas1">To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.</string>
+    <string name="aquinas2">Beware the man of a single book.</string>
+    <string name="aquinas3">We must love them both, those whose opinions we share and those whose opinions
+        we reject, for both have labored in the search for truth, and both have helped us in finding it.</string>
+    <string name="aquinas4">The Study of philosophy is not that we may know what men have thought,
+        but what the truth of things is.</string>
+    <string name="aquinas5">Most men seem to live according to sense rather than reason.</string>
+    <string name="aquinas6">Rarely affirm, seldom deny, always distinguish.</string>
+    <string name="aquinas7">If the highest aim of a captain were to preserve his ship, he would keep it in port forever.</string>
+    <string name="aquinas8">Thus the sun which possesses light perfectly, can shine by itself; whereas
+        the moon which has the nature of light imperfectly, sheds only a borrowed light.</string>
+
+    <string name="montaigne1">On the highest throne in the world, we still sit only on our own bottom.</string>
+    <string name="montaigne2">He who fears he shall suffer, already suffers what he fears.</string>
+    <string name="montaigne3">Nothing fixes a thing so intensely in the memory as the wish to forget it.</string>
+    <string name="montaigne4">I am afraid that our eyes are bigger than our stomachs, and that we
+        have more curiosity than understanding. We grasp at everything, but catch nothing except wind.</string>
+    <string name="montaigne5">I prefer the company of peasants because they have not been educated
+        sufficiently to reason incorrectly.</string>
+    <string name="montaigne6">To begin depriving death of its greatest advantage over us, let us
+        adopt a way clean contrary to that common one; let us deprive death of its strangeness,
+        let us frequent it, let us get used to it; let us have nothing more often in mind than death.
+        We do not know where death awaits us: so let us wait for it everywhere</string>
+    <string name="montaigne7">He who establishes his argument by noise and command, shows that his reason is weak.</string>
+    <string name="montaigne8">Every man has within himself the entire human condition.</string>
+    <string name="montaigne9">Ignorance is the softest pillow on which a man can rest his head.</string>
+    <string name="montaigne10">Kings and philosophers defecate, and so do ladies.</string>
+    <string name="montaigne11">Experience has further taught me this, that we ruin ourselves by impatience.</string>
+
+
+    <string name="bacon1">Some books should be tasted, some devoured, but only a few should be
+        chewed and digested thoroughly.</string>
+    <string name="bacon2">Hope is a good breakfast, but it is a bad supper.</string>
+    <string name="bacon3">Read not to contradict and confute; nor to believe and take for granted;
+        nor to find talk and discourse; but to weigh and consider.</string>
+    <string name="bacon4">Age appears best in four things: old wood to burn, old wine to drink,
+        old friends to trust and old authors to read.</string>
+    <string name="bacon5">Money is a great servant but a bad master.</string>
+    <string name="bacon6">The job of the artist is always to deepen the mystery.</string>
+    <string name="bacon7">It is impossible to love and be wise.</string>
+    <string name="bacon8">In taking revenge, a man is but even with his enemy;
+        but in passing it over, he is superior.</string>
+    <string name="bacon9">The less people speak of their greatness, the more we think of it.</string>
+
+    <string name="hobbes1">Hell is truth seen too late.</string>
+    <string name="hobbes2">For such is the nature of man, that howsoever they may acknowledge many
+        others to be more witty, or more eloquent, or more learned; Yet they will hardly believe
+        there be many so wise as themselves</string>
+    <string name="hobbes3">The condition of man… is a condition of war of everyone against everyone</string>
+    <string name="hobbes4">Life is nasty, brutish, and short</string>
+
+    <string name="pascal1">All of man\'s miseries stem from his inability to sit quietly in a room alone.</string>
+    <string name="pascal2">The heart has its reasons which reason knows not.</string>
+    <string name="pascal3">Men never do evil so completely and cheerfully as when they do it from religious conviction.</string>
+    <string name="pascal4">I would prefer an intelligent hell to a stupid paradise.</string>
+    <string name="pascal5">People almost invariably arrive at their beliefs not on the basis of proof
+        but on the basis of what they find attractive.</string>
+    <string name="pascal6">It is man\'s natural sickness to believe that he possesses the truth.</string>
+    <string name="pascal7">Man\'s sensitivity to the little things and insensitivity to the
+        greatest are the signs of a strange disorder.</string>
+    <string name="pascal8">Man is equally incapable of seeing the nothingness from which he emerges
+        and the infinity in which he is engulfed.</string>
+    <string name="pascal9">There are only two kinds of men: the righteous who think they are sinners
+        and the sinners who think they are righteous.</string>
+    <string name="pascal10">Distraction is the only thing that consoles us for miseries and yet it is
+        itself the greatest of our miseries.</string>
+    <string name="pascal11">The struggle alone pleases us, not the victory.</string>
+
+    <string name="spinoza1">I do not know how to teach philosophy without becoming a disturber of the peace.</string>
+    <string name="spinoza2">If you want the present to be different from the past, study the past.</string>
+    <string name="spinoza3">Everything excellent is as difficult as it is rare.</string>
+    <string name="spinoza4">I have made a ceaseless effort not to ridicule, not to bewail,
+        not to scorn human actions, but to understand them.</string>
+    <string name="spinoza5">The more clearly you understand yourself and your emotions,
+        the more you become a lover of what is.</string>
+    <string name="spinoza6">What Paul says about Peter tells us more about Paul than about Peter.</string>
+    <string name="spinoza7">The endeavor to understand is the first and only basis of virtue.</string>
+    <string name="spinoza8">None are more taken in by flattery than the proud, who wish to be the first and are not.</string>
+    <string name="spinoza9">Minds, however, are conquered not by arms, but by love and nobility.</string>
+    <string name="spinoza10">Don’t cry and don’t rage. Understand.</string>
+    <string name="spinoza11">Blessedness is not the reward of virtue, but virtue itself.</string>
+
+    <string name="newton1">If I have seen further, it is by standing on the shoulders of giants.</string>
+    <string name="newton2">I do not know what I may appear to the world, but to myself I seem to have
+        been only like a boy playing on the sea-shore, and diverting myself in now and then finding
+        a smoother pebble or a prettier shell than ordinary, whilst the great ocean of truth lay all
+        undiscovered before me.</string>
+    <string name="newton3">Nature is pleased with simplicity. And nature is no dummy.</string>
+    <string name="newton4">What we know is a drop, what we don\'t know is an ocean.</string>
+    <string name="newton5">Tact is the knack of making a point without making an enemy.</string>
+    <string name="newton6">No great discovery was ever made without a bold guess.</string>
+
+
+    <string name="voltaire1">Every man is a creature of the age in which he lives and few are able
+        to raise themselves above the ideas of the time.</string>
+    <string name="voltaire2">It is forbidden to kill; therefore all murderers are punished unless
+        they kill in large numbers and to the sound of trumpets.</string>
+    <string name="voltaire3">Those who can make you believe absurdities, can make you commit atrocities.</string>
+    <string name="voltaire4">Every man is guilty of all the good he did not do.</string>
+    <string name="voltaire5">It is dangerous to be right in matters on which the established authorities are wrong.</string>
+    <string name="voltaire6">Doubt is an uncomfortable condition, but certainty is a ridiculous one.</string>
+    <string name="voltaire7">Think for yourself and let others enjoy the privilege of doing so too.</string>
+    <string name="voltaire8">Faith consists in believing what reason cannot.</string>
+    <string name="voltaire9">Judge a man by his questions rather than by his answers.</string>
+    <string name="voltaire10">If God did not exist, it would be necessary to invent him.</string>
+    <string name="voltaire11">The human brain is a complex organ with the wonderful power of enabling
+        man to find reasons for continuing to believe whatever it is that he wants to believe.</string>
+    <string name="voltaire12">We never live; we are always in the expectation of living.</string>
+    <string name="voltaire13">He must be very ignorant for he answers every question he is asked.</string>
+    <string name="voltaire14">It is difficult to free fools from the chains they revere.</string>
+
+    <string name="hume1">Reason is, and ought only to be the slave of the passions.</string>
+    <string name="hume2">Be a philosopher; but, amidst all your philosophy, be still a man.</string>
+    <string name="hume3">But the life of a man is of no greater importance to the universe than that of an oyster.</string>
+    <string name="hume4">Liberty of any kind is never lost all at once.</string>
+    <string name="hume5">The corruption of the best things gives rise to the worst.</string>
+    <string name="hume6">Eloquence, at its highest pitch, leaves little room for reason or reflection,
+        but addresses itself entirely to the desires and affections, captivating the willing hearers,
+        and subduing their understanding.</string>
+
+    <string name="kant1">We are not rich by what we possess but by what we can do without.</string>
+    <string name="kant2">Act in such a way that you treat humanity, whether in your own person or
+        in the person of any other, never merely as a means to an end, but always at the same
+        time as an end.</string>
+    <string name="kant3">One who makes himself a worm cannot complain afterwards if
+        people step on him.</string>
+    <string name="kant4">Two things fill the mind with ever-increasing wonder and awe, the more
+        often and the more intensely the mind of thought is drawn to them: the starry heavens above
+        me and the moral law within me.</string>
+    <string name="kant5">All our knowledge begins with the senses, proceeds then to the understanding,
+        and ends with reason. There is nothing higher than reason.</string>
+    <string name="kant6">The death of dogma is the birth of morality.</string>
+    <string name="kant7">Space and time are the framework within which the mind is constrained to
+        construct its experience of reality.</string>
+    <string name="kant8">Have patience awhile; slanders are not long-lived. Truth is the child of
+        time; erelong she shall appear to vindicate thee.</string>
+    <string name="kant9">The reading of all good books is like a conversation with the finest
+        minds of past centuries.</string>
+    <string name="kant10">Act only according to that maxim whereby you can at the same time will
+        that it should become a universal law.</string>
+    <string name="kant11">If the truth shall kill them, let them die.</string>
+    <string name="kant12">Morality is not properly the doctrine of how we may make ourselves happy,
+        but how we may make ourselves worthy of happiness.</string>
+    <string name="kant13">Innocence is a splendid thing, only it has the misfortune not to keep
+        very well and to be easily misled.</string>
+
+
+    <string name="rousseau1">Man is born free and everywhere he is in chains.</string>
+    <string name="rousseau2">We swallow greedily any lie that flatters us, but we sip only little
+        by little at a truth we find bitter.</string>
+    <string name="rousseau3">The philosopher has never killed any priests, whereas the priest has
+        killed a great many philosophers.</string>
+    <string name="rousseau4">Watch out for the fellow who talks about putting things in order!
+        Putting things in order always means getting other people under your control.</string>
+    <string name="rousseau5">People who know little are usually great talkers, while men who know much say little.</string>
+    <string name="rousseau6">Civilization is a hopeless race to discover remedies for the evils it produces.</string>
+    <string name="rousseau7">All my misfortunes come of having thought too well of my fellows.</string>
+
+    <string name="bentham1">“The question is not, "Can they reason?" nor, "Can they talk?" but "Can they suffer?”</string>
+    <string name="bentham2">Create all the happiness you are able to create; remove all the misery
+        you are able to remove. Every day will allow and invite you to add something to the pleasure
+        of others, or to diminish something of their pains.</string>
+    <string name="bentham3">Stretching his hand up to reach the stars, too often man forgets the flowers at his feet.</string>
+    <string name="bentham4">No power of government ought to be employed in the endeavor to establish
+        any system or article of belief on the subject of religion.</string>
+    <string name="bentham5">The quantity of pleasure being equal, push-pin is as good as poetry.</string>
+
+    <string name="schiller1">The most beautiful dreams of freedom are in prison.</string>
+    <string name="schiller2">Only those who have the patience to do simple things perfectly will
+        acquire the skill to do difficult things easily.</string>
+    <string name="schiller3">I feel an army in my fist.</string>
+    <string name="schiller4">The voice of the majority is no proof of justice.</string>
+    <string name="schiller5">Grace is the beauty of form under the influence of freedom.</string>
+    <string name="schiller6">Deeper meaning resides in the fairy tales told me in my childhood
+        than any truth that is taught in life.</string>
+    <string name="schiller7">Man is never so authentically himself than when at play.</string>
+    <string name="schiller8">Every true genius is bound to be naive.</string>
+
+    <string name="hegel1">We learn from history that we do not learn from history.</string>
+    <string name="hegel2">To be independent of public opinion is the first formal condition
+        of achieving anything great.</string>
+    <string name="hegel3">Genuine tragedies in the world are not conflicts between right and wrong.
+        They are conflicts between two rights</string>
+    <string name="hegel4">Evil resides in the very gaze which perceives Evil all around itself.</string>
+    <string name="hegel5">Education is the art of making man ethical.</string>
+    <string name="hegel6">The valor that struggles is better than the weakness that endures.</string>
+    <string name="hegel7">It is solely by risking life that freedom is obtained; …
+        the individual who has not staked his or her life may, no doubt, be recognized as a Person;
+        but he or she has not attained the truth of this recognition as an independent self-consciousness.</string>
+    <string name="hegel8">When liberty is mentioned, we must always be careful to observe whether
+        it is not really the assertion of private interests which is thereby designated.</string>
+    <string name="hegel9">The ignorant man is not free, because what confronts him is an alien world,
+        something outside him and in the offing, on which he depends, without his having made this
+        foreign world for himself and therefore without being at home in it by himself
+        as in something his own.</string>
+    <string name="hegel10">Once the state has been founded, there can no longer be any heroes.
+        They come on the scene only in uncivilized conditions.</string>
+    <string name="hegel11">The state of man\'s mind, or the elementary phase of mind which he so far
+        possesses, conforms precisely to the state of the world as he so far views it.</string>
+
+    <string name="schopenhauer1">Life swings like a pendulum backward and forward
+        between pain and boredom.</string>
+    <string name="schopenhauer2">Mostly it is loss which teaches us about the worth of things.</string>
+    <string name="schopenhauer3">Every man takes the limits of his own field of vision
+        for the limits of the world.</string>
+    <string name="schopenhauer4">Man can do what he wills but he cannot will what he wills.</string>
+    <string name="schopenhauer5">Talent hits a target no one else can hit.
+        Genius hits a target no one else can see.</string>
+    <string name="schopenhauer6">It is difficult to find happiness within oneself,
+        but it is impossible to find it anywhere else.”</string>
+    <string name="schopenhauer7">Every miserable fool who has nothing at all of which he can be
+        proud, adopts as a last resource pride in the nation to which he belongs.</string>
+    <string name="schopenhauer8">One should use common words to say uncommon things.</string>
+    <string name="schopenhauer9">Compassion for animals is intimately associated with goodness of
+        character, and it may be confidently asserted that he who is cruel to animals
+        cannot be a good man.</string>
+    <string name="schopenhauer10">The assumption that animals are without rights and the illusion
+        that our treatment of them has no moral significance is a positively outrageous example
+        of Western crudity and barbarity.</string>
+    <string name="schopenhauer11">Life is a constant process of dying.</string>
+    <string name="schopenhauer12">If children were brought into the world by an act of pure reason
+        alone, would the human race continue to exist? Would not a man rather have so much sympathy
+        with the coming generation as to spare it the burden of existence, or at any rate not take
+        it upon himself to impose that burden upon it in cold blood?</string>
+    <string name="schopenhauer13">We forfeit three-fourths of ourselves in order to be like other people.</string>
+    <string name="schopenhauer14">What disturbs and depresses young people is the hunt for happiness
+        on the firm assumption that it must be met with in life. From this arises constantly deluded
+        hope and so also dissatisfaction. Deceptive images of a vague happiness hover before us in
+        our dreams, and we search in vain for their original. Much would have been gained if,
+        through timely advice and instruction, young people could have had eradicated from their
+        minds the erroneous notion that the world has a great deal to offer them.</string>
+    <string name="schopenhauer15">It would be better if there were nothing. Since there is more pain
+        than pleasure on earth, every satisfaction is only transitory, creating new desires and new
+        distresses, and the agony of the devoured animal is always far greater than the pleasure
+        of the devourer.</string>
+    <string name="schopenhauer16">Without books the development of civilization would have been
+        impossible. They are the engines of change, windows on the world, "Lighthouses" as the poet
+        said "erected in the sea of time."</string>
+    <string name="schopenhauer17">Hope is the confusion of the desire for a thing with its probability.</string>
+    <string name="schopenhauer18">The inexpressible depth of music, so easy to understand and yet so
+        inexplicable, is due to the fact that it reproduces all the emotions of our innermost being,
+        but entirely without reality and remote from its pain… Music expresses only the quintessence
+        of life and its events, never these themselves.</string>
+    <string name="schopenhauer19">Every parting gives a foretaste of death.</string>
+    <string name="schopenhauer20">Buying books would be a good thing if one could also buy the
+        time to read them; but as a rule the purchase of books is mistaken for the appropriation
+        of their contents.</string>
+    <string name="schopenhauer21">Pleasure is never as pleasant as we expected it to be and pain is
+        always more painful. The pain in the world always outweighs the pleasure.</string>
+    <string name="schopenhauer22">Wealth is like sea-water; the more we drink, the thirstier we
+        become; and the same is true of fame.</string>
+    <string name="schopenhauer23">Change alone is eternal, perpetual, immortal.</string>
+    <string name="schopenhauer24">A man can be himself only so long as he is alone, and if he does
+        not love solitude, he will not love freedom, for it is only when he is alone that he is
+        really free.</string>
+
+    <string name="emerson1">It is one of the blessings of old friends that you can
+        afford to be stupid with them.</string>
+    <string name="emerson2">Always do what you are afraid to do.</string>
+    <string name="emerson3">I cannot remember the books I\'ve read any more than the meals I have
+        eaten; even so, they have made me.</string>
+    <string name="emerson4">The purpose of life is not to be happy. It is to be useful, to be
+        honorable, to be compassionate, to have it make some difference that you have
+        lived and lived well.</string>
+    <string name="emerson5">What you do speaks so loudly that I cannot hear what you say.</string>
+    <string name="emerson6">When it is dark enough, you can see the stars.</string>
+    <string name="emerson7">Make your own Bible. Select and collect all the words and sentences that
+        in all your readings have been to you like the blast of a trumpet.</string>
+    <string name="emerson8">It is not the length of life, but the depth.</string>
+    <string name="emerson9">It is easy in the world to live after the world\'s opinion; it is easy
+        in solitude to live after our own; but the great man is he who in the midst of the
+        crowd keeps with perfect sweetness the independence of solitude.</string>
+    <string name="emerson10">If we encounter a man of rare intellect,
+        we should ask him what books he reads.</string>
+    <string name="emerson11">A great man is always willing to be little.</string>
+    <string name="emerson12">Though we travel the world over to find the beautiful,
+        we must carry it with us, or we find it not.</string>
+    <string name="emerson13">Let me never fall into the vulgar mistake of dreaming that I am
+        persecuted whenever I am contradicted.</string>
+
+    <string name="mill1">He who knows only his own side of the case knows little of that. His
+        reasons may be good, and no one may have been able to refute them. But if he is equally
+        unable to refute the reasons on the opposite side, if he does not so much as know what they
+        are, he has no ground for preferring either opinion… Nor is it enough that he should hear
+        the opinions of adversaries from his own teachers, presented as they state them, and
+        accompanied by what they offer as refutations. He must be able to hear them from persons
+        who actually believe them…he must know them in their most plausible and persuasive form.</string>
+    <string name="mill2">I have learned to seek my happiness by limiting my desires,
+        rather than in attempting to satisfy them.</string>
+    <string name="mill3">A person may cause evil to others not only by his actions but by his
+        inaction, and in either case he is justly accountable to them for the injury.</string>
+    <string name="mill4">Bad men need nothing more to compass their ends, than that good men
+        should look on and do nothing.</string>
+    <string name="mill5">It is better to be a human being dissatisfied than a pig satisfied;
+        better to be Socrates dissatisfied than a fool satisfied.</string>
+    <string name="mill6">If all mankind minus one, were of one opinion, and only one person were of
+        the contrary opinion, mankind would be no more justified in silencing that one person, than
+        he, if he had the power, would be justified in silencing mankind.</string>
+    <string name="mill7">Christian morality has all the characters of a reaction; it is, in great
+        part, a protest against Paganism. Its ideal is negative rather than positive; passive rather
+        than action; innocence rather than Nobleness; Abstinence from Evil, rather than energetic
+        Pursuit of Good: in its precepts (as has been well said) \'thou shalt not\' predominates
+        unduly over \'thou shalt.\'</string>
+    <string name="mill8">It still remains unrecognised, that to bring a child into existence without
+        a fair prospect of being able, not only to provide food for its body, but instruction and
+        training for its mind, is a moral crime, both against the unfortunate offspring and against
+        society.</string>
+    <string name="mill9">The only freedom which deserves the name, is that of pursuing our own good
+        in our own way, so long as we do not attempt to deprive others of theirs, or impede their
+        efforts to obtain it.</string>
+    <string name="mill10">Utility, or the Greatest-Happiness Principle, holds that actions are
+        right in proportion as they tend to promote happiness, wrong as they tend to produce the
+        reverse of happiness. By happiness is intended pleasure, and the absence of pain;
+        by unhappiness, pain, and the privation of pleasure.</string>
+    <string name="mill11">No one can be a great thinker who does not recognize that as a thinker it
+        is his first duty to follow his intellect to whatever conclusions it may lead.</string>
+
+
+    <string name="kierkegaard1">I see it all perfectly; there are two possible situations —
+        one can either do this or that. My honest opinion and my friendly advice is this:
+        do it or do not do it — you will regret both.</string>
+    <string name="kierkegaard2">Don\'t you know that a midnight hour comes when everyone has to take
+        off his mask? Do you think life always lets itself be trifled with? Do you think you can
+        sneak off a little before midnight to escape this?</string>
+    <string name="kierkegaard3">Many of us pursue pleasure with such breathless
+        haste that we hurry past it.</string>
+    <string name="kierkegaard4">The function of prayer is not to influence God, but rather to change
+        the nature of the one who prays.</string>
+    <string name="kierkegaard5">Life can only be understood backwards;
+        but it must be lived forwards.</string>
+    <string name="kierkegaard6">My sorrow is my castle.</string>
+    <string name="kierkegaard7">The most painful state of being is remembering the future,
+        particularly the one you\'ll never have.</string>
+    <string name="kierkegaard8">Life is not a problem to be solved, but a reality to be experienced.</string>
+    <string name="kierkegaard9">The self-assured believer is a greater sinner in the eyes of God
+        than the troubled disbeliever.</string>
+    <string name="kierkegaard10">Leap of faith – yes, but only after reflection</string>
+    <string name="kierkegaard11">What is a poet? An unhappy man who hides deep anguish in his heart,
+        but whose lips are so formed that when the sigh and cry pass through them, it sounds like
+        lovely music… And people flock around the poet and say: \'Sing again soon\' - that is,
+        \'May new sufferings torment your soul but your lips be fashioned as before,
+        for the cry would only frighten us, but the music, that is blissful.\'</string>
+    <string name="kierkegaard12">The tyrant dies and his rule is over, the martyr dies and his rule begins.</string>
+    <string name="kierkegaard13">Truth always rests with the minority, and the minority is always
+        stronger than the majority, because the minority is generally formed by those who really
+        have an opinion, while the strength of a majority is illusory, formed by the gangs who have
+        no opinion — and who, therefore, in the next instant (when it is evident that the minority
+        is the stronger) assume its opinion… while truth again reverts to a new minority.</string>
+    <string name="kierkegaard14">My melancholy is the most faithful sweetheart I have had.</string>
+    <string name="kierkegaard15">If you want to be loathsome to God, just run with the herd.</string>
+
+    <string name="thoreau1">Rather than love, than money, than fame, give me truth.</string>
+    <string name="thoreau2">Success usually comes to those who are too busy to be looking for it.</string>
+    <string name="thoreau3">Not until we are lost do we begin to understand ourselves.</string>
+    <string name="thoreau4">Many men go fishing all of their lives without knowing
+        that it is not fish they are after.</string>
+    <string name="thoreau5">There are a thousand hacking at the branches of evil to one who is striking at the root.</string>
+    <string name="thoreau6">Make the most of your regrets; never smother your sorrow, but tend and
+        cherish it till it comes to have a separate and integral interest. To regret deeply is to
+        live afresh.</string>
+    <string name="thoreau7">If I knew for a certainty that a man was coming to my house with the
+        conscious design of doing me good, I should run for my life.</string>
+
+    <string name="james1">Action may not always bring happiness,
+        but there is no happiness without action.</string>
+    <string name="james2">The art of being wise is knowing what to overlook.</string>
+    <string name="james3">We are like islands in the sea, separate on the surface but connected in the deep.</string>
+    <string name="james4">The greatest discovery of any generation is that
+        a human can alter his life by altering his attitude.</string>
+    <string name="james5">Seek out that particular mental attribute which makes you feel most deeply
+        and vitally alive, along with which comes the inner voice which says, \'This is the real me,\'
+        and when you have found that attitude, follow it.</string>
+    <string name="james6">The great use of life is to spend it for something that will outlast it.</string>
+    <string name="james7">The deepest principle in human nature is the craving to be appreciated.</string>
+    <string name="james8">Our view of the world is truly shaped by what we decide to hear.</string>
+    <string name="james9">Begin to be now what you will be hereafter.</string>
+    <string name="james10">Philosophy is at once the most sublime and the most trivial of human pursuits.</string>
+
+    <string name="nietzsche1">You must have chaos within you to give birth to a dancing star.</string>
+    <string name="nietzsche2">I have often laughed at the weaklings who thought themselves good because they have no claws.</string>
+    <string name="nietzsche3">One must need to become strong, otherwise one will never become strong.</string>
+    <string name="nietzsche4">If a man has a great deal to put in them, a day will have a hundred pockets.</string>
+    <string name="nietzsche5">Sometimes people don\'t want to hear the truth because they don\'t want their illusions destroyed.</string>
+    <string name="nietzsche6">Ultimately it is the desire, not the desired, that we love.</string>
+    <string name="nietzsche7">One must shed the bad taste of wanting to agree with many. "Good" is
+        no longer good when one\'s neighbor mouths it. And how should there be a "common good"!
+        The term contradicts itself: whatever can be common always has little value. In the end it
+        must be as it is and always has been: great things remain for the great, abysses for the
+        profound, nuances and shudders for the refined, and, in brief, all that is rare for the rare.</string>
+    <string name="nietzsche8">Every profound spirit needs a mask.</string>
+    <string name="nietzsche9">He that has a \'why\' can bear almost \'how\'.</string>
+    <string name="nietzsche10">That for which we find words is already dead in our hearts.</string>
+    <string name="nietzsche11">He who fights with monsters should look to it that he himself does not become a monster.
+        And if you gaze long enough into an abyss, the abyss will gaze back into you.</string>
+    <string name="nietzsche12">That which does not kill us makes us stronger.</string>
+    <string name="nietzsche13">And those who were seen dancing were thought to be insane by those
+        who could not hear the music.</string>
+    <string name="nietzsche14">Is man merely a mistake of God\'s? Or God merely a mistake of man?</string>
+    <string name="nietzsche15">The surest way to corrupt a youth is to instruct him to hold in
+        higher esteem those who think alike than those who think differently.</string>
+    <string name="nietzsche16">Every deep thinker is more afraid of
+        being understood than of being misunderstood.</string>
+    <string name="nietzsche17">Thoughts are the shadows of our feelings
+        — always darker, emptier and simpler.</string>
+    <string name="nietzsche18">Faith: not wanting to know what the truth is.</string>
+    <string name="nietzsche19">There are no beautiful surfaces without a terrible depth.</string>
+    <string name="nietzsche20">You must be ready to burn yourself in your own flame;
+        how could you rise anew if you have not first become ashes?</string>
+    <string name="nietzsche21">Be careful, lest in casting out your demon you exorcise the best thing in you.</string>
+    <string name="nietzsche22">There are two different types of people in the world, those who
+        want to know, and those who want to believe.</string>
+    <string name="nietzsche23">Art is the proper task of life. </string>
+    <string name="nietzsche24">I know of no better life purpose than to perish in attempting
+        the great and the impossible.</string>
+    <string name="nietzsche25">Hope, in reality, is the worst of all evils because it prolongs the torments of man.</string>
+    <string name="nietzsche26">Madness is something rare in individuals — but in groups, parties,
+        peoples, and ages, it is the rule.</string>
+    <string name="nietzsche27">One must be a sea, to receive a polluted stream without becoming impure.</string>
+    <string name="nietzsche28">But it is the same with man as with the tree. The more he seeks to
+        rise into the height and light, the more vigorously do his roots struggle earthward,
+        downward, into the dark, the deep — into evil.</string>
+    <string name="nietzsche29">For art to exist, for any sort of aesthetic activity or perception
+        to exist, a certain physiological precondition is indispensable: intoxication.</string>
+    <string name="nietzsche30">The worst readers are those who behave like plundering troops: they
+        take away a few things they can use, dirty and confound the remainder, and revile the whole.</string>
+
+    <string name="freud1">Most people do not really want freedom, because freedom involves
+        responsibility, and most people are frightened of responsibility.</string>
+    <string name="freud2">Out of your vulnerabilities will come your strength.</string>
+    <string name="freud3">Unexpressed emotions will never die. They are buried alive and will come
+        forth later in uglier ways.</string>
+    <string name="freud4">It is impossible to escape the impression that people commonly use false
+        standards of measurement — that they seek power, success and wealth for themselves and
+        admire them in others, and that they underestimate what is of true value in life.</string>
+    <string name="freud5">One day, in retrospect,
+        the years of struggle will strike you as the most beautiful.</string>
+    <string name="freud6">It is that we are never so defenseless against suffering as when we love,
+        never so helplessly unhappy as when we have lost our loved object or its love.</string>
+    <string name="freud7">Immorality, no less than morality, has at all times found support in religion.</string>
+    <string name="freud8">The behavior of a human being in sexual matters is often a prototype for
+        the whole of his other modes of reaction in life.</string>
+    <string name="freud9">The madman is a dreamer awake.</string>
+
+    <string name="jung1">Your visions will become clear only when you can look into your own heart.
+        Who looks outside, dreams; who looks inside, awakes.</string>
+    <string name="jung2">Until you make the unconscious conscious,
+        it will direct your life and you will call it fate.</string>
+    <string name="jung3">Everything that irritates us about others can lead us to
+        an understanding of ourselves.</string>
+    <string name="jung4">No tree, it is said, can grow to heaven unless its roots reach down to hell.</string>
+    <string name="jung5">Knowing your own darkness is the best method for dealing with the darknesses of other people.</string>
+    <string name="jung6">Thinking is difficult, that’s why most people judge.</string>
+    <string name="jung7">How can I be substantial if I do not cast a shadow? I must have a dark side also If I am to be whole.</string>
+    <string name="jung8">You are what you do, not what you say you\'ll do.</string>
+    <string name="jung9">People will do anything, no matter how absurd, to avoid facing their own souls.</string>
+    <string name="jung10">The greatest tragedy of the family is the unlived lives of the parents.</string>
+    <string name="jung11">The most terrifying thing is to accept oneself completely.</string>
+
+    <string name="santayana1">Those who cannot remember the past are condemned to repeat it.</string>
+    <string name="santayana2">The world is not respectable; it is mortal, tormented, confused, deluded
+        forever; but it is shot through with beauty, with love, with glints of courage and laughter;
+        and in these, the spirit blooms timidly, and struggles to the light amid the thorns.</string>
+    <string name="santayana3">To be interested in the changing seasons is a happier state of mind
+        than to be hopelessly in love with spring.</string>
+    <string name="santayana4">Only the dead have seen the end of war.</string>
+    <string name="santayana5">We need sometimes to escape into open solitudes, into aimlessness, into
+        the moral holiday of running some pure hazard in order to sharpen the edge of life, to taste
+        hardship, and to be compelled to work desperately for a moment at no matter what.</string>
+    <string name="santayana6">Society is like the air, necessary to breathe but insufficient to live on.</string>
+    <string name="santayana7">Fanaticism consists in redoubling your effort when you have forgotten your aim.</string>
+    <string name="santayana8">love make us poets, and the approach of death should make us philosophers.</string>
+    <string name="santayana9">We must welcome the future, remembering that soon it will be the past;
+        and we must respect the past, remembering that it was once all that was humanly possible.</string>
+
+    <string name="russell1">Fear is the main source of superstition, and one of the main sources of cruelty. To conquer fear is the beginning of wisdom.</string>
+    <string name="russell2">Most people would sooner die than think; in fact, they do so.</string>
+    <string name="russell3">I would never die for my beliefs because I might be wrong.</string>
+    <string name="russell4">The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt.</string>
+    <string name="russell5">A stupid man\'s report of what a clever man says can never be accurate, because he unconsciously translates what he hears into something he can understand.</string>
+    <string name="russell6">One of the symptoms of an approaching nervous breakdown is the belief that one’s work is terribly important.</string>
+    <string name="russell7">The hardest thing to learn in life is which bridge to cross and which to burn.</string>
+    <string name="russell8">Collective fear stimulates herd instinct, and tends to produce ferocity toward those who are not regarded as members of the herd.</string>
+    <string name="russell9">No one gossips about other people’s secret virtues.</string>
+
+    <string name="wittgenstein1">We feel that even if all possible scientific questions be answered, the problems of life have still not been touched at all.</string>
+    <string name="wittgenstein2">The limits of my language means the limits of my world.</string>
+    <string name="wittgenstein3">Language disguises thought.</string>
+    <string name="wittgenstein4">You can\'t think decently if you\'re not willing to hurt yourself.</string>
+    <string name="wittgenstein5">Whereof one cannot speak, thereof one must be silent.</string>
+    <string name="wittgenstein6">Hell isn\'t other people. Hell is yourself.</string>
+    <string name="wittgenstein7">Nothing is so difficult as not deceiving oneself.</string>
+    <string name="wittgenstein8">To imagine a language is to imagine a form of life.</string>
+    <string name="wittgenstein9">The mystical is not how the world is, but that it is.</string>
+    <string name="wittgenstein10">When you are philosophizing you have to descend into primeval chaos and feel at home there.</string>
+    <string name="wittgenstein11">If a lion could talk, we would not understand him.</string>
+
+    <string name="heidegger1">If I take death into my life, acknowledge it, and face it squarely, I will free myself from the anxiety of death and the pettiness of life - and only then will I be free to become myself. </string>
+    <string name="heidegger2">Man acts as though he were the shaper and master of language, while in fact language remains the master of man.</string>
+
+    <string name="sartre1">There may be more beautiful times, but this one is ours.</string>
+    <string name="sartre2">We are our choices.</string>
+    <string name="sartre3">Freedom is what we do with what is done to us.</string>
+    <string name="sartre4">Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.</string>
+    <string name="sartre5">If you\'re lonely when you\'re alone, you\'re in bad company.</string>
+    <string name="sartre6">The more sand that has escaped from the hourglass of our life, the clearer we should see through it.</string>
+    <string name="sartre7">Do you think that I count the days? There is only one day left, always starting over: it is given to us at dawn and taken away from us at dusk.</string>
+    <string name="sartre8">It\'s quite an undertaking to start loving somebody. You have to have energy, generosity, blindness. There is even a moment right at the start where you have to jump across an abyss: if you think about it you don\'t do it.</string>
+    <string name="sartre9">Better to die on one\'s feet than to live on one\'s knees.</string>
+    <string name="sartre10">He was free, free in every way, free to behave like a fool or a machine, free to accept, free to refuse, free to equivocate; to marry, to give up the game, to drag this death weight about with him for years to come. He could do what he liked, no one had the right to advise him, there would be for him no Good or Evil unless he thought them into being.</string>
+    <string name="sartre11">I had found my religion: nothing seemed more important to me than a book. I saw the library as a temple.</string>
+
+    <string name="rand1">The hardest thing to explain is the glaringly evident which everybody has decided not to see.</string>
+    <string name="rand2">You can avoid reality, but you cannot avoid the consequences of avoiding reality.</string>
+    <string name="rand3">The truth is not for all men but only for those who seek it.</string>
+    <string name="rand4">I swear by my life and my love of it that I will never live for the sake of another man, nor ask another man to live for mine.</string>
+    <string name="rand5">So you think that money is the root of all evil. Have you ever asked what is the root of all money?</string>
+    <string name="rand6">Freedom (n.): To ask nothing. To expect nothing. To depend on nothing.</string>
+    <string name="rand7">A person\'s sexual choice is the result and sum of their fundamental convictions. Tell me what a person finds sexually attractive and I will tell you their entire philosophy of life. Show me the person they sleep with and I will tell you their valuation of themselves. No matter what corruption they\'re taught about the virtue of selflessness, sex is the most profoundly selfish of all acts, an act which they cannot perform for any motive but their own enjoyment — just try to think of performing it in a spirit of selfless charity! - an act which is not possible in self-abasement, only in self-exultation, only on the confidence of being desired and being worthy of desire. It is an act that forces them to stand naked in spirit, as well as in body, and accept their real ego as their standard of value. They will always be attracted to the person who reflects their deepest vision of themselves, the person whose surrender permits them to experience — or to fake — a sense of self-esteem. Love is our response to our highest values — and can be nothing else.</string>
+
+    <string name="arendt1">The sad truth is that most evil is done by people who never make up their minds to be good or evil.</string>
+    <string name="arendt2">There are no dangerous thoughts; thinking itself is dangerous.</string>
+    <string name="arendt3">Evil comes from a failure to think. It defies thought for as soon as thought tries to engage itself with evil and examine the premises and principles from which it originates, it is frustrated because it finds nothing there. That is the banality of evil.</string>
+    <string name="arendt4">The aim of totalitarian education has never been to instill convictions but to destroy the capacity to form any.</string>
+    <string name="arendt5">The most radical revolutionary will become a conservative the day after the revolution.</string>
+    <string name="arendt6">Storytelling reveals meaning without committing the error of defining it.</string>
+    <string name="arendt7">Clichés, stock phrases, adherence to conventional, standardized codes of expression and conduct have the socially recognized function of protecting us against reality, that is, against the claim on our thinking attention that all events and facts make by virtue of their existence.</string>
+    <string name="arendt8">The ideal subject of totalitarian rule is not the convinced Nazi or the convinced Communist, but people for whom the distinction between fact and fiction (i.e., the reality of experience) and the distinction between true and false (i.e., the standards of thought) no longer exist.</string>
+    <string name="arendt9">Under conditions of tyranny it is far easier to act than to think.</string>
+
+    <string name="camus1">Don’t walk in front of me… I may not follow. Don’t walk behind me… I may not lead. Walk beside me… just be my friend</string>
+    <string name="camus2">But in the end one needs more courage to live than to kill himself.</string>
+    <string name="camus3">Live to the point of tears.</string>
+    <string name="camus4">Man is the only creature who refuses to be what he is.</string>
+    <string name="camus5">You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.</string>
+    <string name="camus6">When the soul suffers too much, it develops a taste for misfortune.</string>
+    <string name="camus7">I opened myself to the gentle indifference of the world.</string>
+    <string name="camus8">In the depth of winter, I finally learned that within me there lay an invincible summer.</string>
+    <string name="camus9">Fiction is the lie through which we tell the truth.</string>
+    <string name="camus10">People hasten to judge in order not to be judged themselves.</string>
+    <string name="camus11">The evil that is in the world almost always comes from ignorance, and good intentions may do as much harm as malevolence if they lack understanding.</string>
+    <string name="camus12">In order to understand the world, one has to turn away from it on occasion.</string>
+    <string name="camus13">Since we\'re all going to die, it\'s obvious that when and how don\'t matter.</string>
+    <string name="camus14">Seeking what is true is not seeking what is desirable.</string>
+    <string name="camus15">What is called a reason for living is also an excellent reason for dying.</string>
+    <string name="camus16">“Have you no hope at all? And do you really live with the thought that when you die, you die, and nothing remains?" "Yes," I said.” </string>
+    <string name="camus17">Beauty is unbearable, drives us to despair, offering us for a minute the glimpse of an eternity that we should like to stretch out over the whole of time.</string>
+    <string name="camus18">I know simply that the sky will last longer than I.</string>
+
+
+</resources>

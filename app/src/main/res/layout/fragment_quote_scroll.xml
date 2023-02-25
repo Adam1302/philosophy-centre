@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".QuoteScrollFragment">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.philosophycentre.model.PhilosophyViewModel" />
+        <variable
+            name="quoteScrollFragment"
+            type="com.example.philosophycentre.QuoteScrollFragment" />
+    </data>
+
+
+    <ScrollView
+        android:background="@drawable/mountain_river_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:padding="16dp" />
+
+    </ScrollView>
+
+</layout>
+    <!--
+    <layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <data>
+            <variable
+                name="viewModel"
+                type="com.example.philosophycentre.model.PhilosophyViewModel" />
+            <variable
+                name="quoteScrollFragment"
+                type="com.example.philosophycentre.QuoteScrollFragment" />
+        </data>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </layout>
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerView"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:context="QuoteScrollFragment">
+
+    </android.support.v7.widget.RecyclerView>
+    -->

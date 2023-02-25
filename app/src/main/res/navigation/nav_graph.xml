@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.philosophycentre.WelcomeFragment"
+        android:label="welcome_fragment"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.philosophycentre.MainMenuFragment"
+        android:label="main_menu_fragment"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_quoteScrollFragment"
+            app:destination="@id/quoteScrollFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_philosopherScrollFragment"
+            app:destination="@id/philosopherScrollFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_branchScrollFragment"
+            app:destination="@id/branchScrollFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quoteScrollFragment"
+        android:name="com.example.philosophycentre.QuoteScrollFragment"
+        android:label="fragment_quote_scroll"
+        tools:layout="@layout/fragment_quote_scroll" />
+    <fragment
+        android:id="@+id/philosopherScrollFragment"
+        android:name="com.example.philosophycentre.PhilosopherScrollFragment"
+        android:label="PhilosopherScrollFragment" >
+        <action
+            android:id="@+id/action_philosopherScrollFragment_to_philosopherProfileFragment"
+            app:destination="@id/philosopherProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/philosopherProfileFragment"
+        android:name="com.example.philosophycentre.PhilosopherProfileFragment"
+        android:label="fragment_philosopher_profile"
+        tools:layout="@layout/fragment_philosopher_profile" />
+    <fragment
+        android:id="@+id/branchScrollFragment"
+        android:name="com.example.philosophycentre.BranchScrollFragment"
+        android:label="fragment_branch_scroll"
+        tools:layout="@layout/fragment_branch_scroll" >
+        <action
+            android:id="@+id/action_branchScrollFragment_to_philosophyBranchFragment"
+            app:destination="@id/philosophyBranchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/philosophyBranchFragment"
+        android:name="com.example.philosophycentre.PhilosophyBranchFragment"
+        android:label="fragment_philosophy_branch"
+        tools:layout="@layout/fragment_philosophy_branch" />
+</navigation>

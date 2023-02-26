@@ -10,6 +10,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.philosophycentre.databinding.FragmentWelcomeBinding
 import com.example.philosophycentre.dataclasses.philosopherList
+import com.example.philosophycentre.dataclasses.philosophyBranchList
 import com.example.philosophycentre.model.Philosopher
 import com.example.philosophycentre.model.PhilosophyBranch
 import com.example.philosophycentre.model.PhilosophyViewModel
@@ -37,54 +38,9 @@ class WelcomeFragment: Fragment() {
 
         binding?.welcomeFragment = this
 
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Ethics",
-                requireContext()
-            )
-        )
-
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Aesthetics",
-                requireContext()
-            )
-        )
-
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Political Philosophy",
-                requireContext()
-            )
-        )
-
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Epistemology",
-                requireContext()
-            )
-        )
-
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Axiology",
-                requireContext()
-            )
-        )
-
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Metaphysics",
-                requireContext()
-            )
-        )
-
-        sharedViewModel.addPhilosophyBranch(
-            PhilosophyBranch(
-                "Logic",
-                requireContext()
-            )
-        )
+        for (branch in philosophyBranchList) {
+            sharedViewModel.addPhilosophyBranch(branch, requireContext())
+        }
 
         for (philosopher in philosopherList) {
             sharedViewModel.addPhilosopher(philosopher, requireContext())

@@ -12,8 +12,10 @@ class PhilosophyViewModel : ViewModel() {
     var currentPhilosopher: Philosopher? = null
     var currentBranch: PhilosophyBranch? = null
 
-    fun addPhilosophyBranch(philosophyBranch: PhilosophyBranch) {
+    fun addPhilosophyBranch(philosophyBranch: PhilosophyBranch, context: Context) {
         branchList.add(philosophyBranch)
+
+        addDescription(philosophyBranch, context)
     }
 
     fun addPhilosopher(philosopher: Philosopher, context: Context) {
@@ -28,6 +30,16 @@ class PhilosophyViewModel : ViewModel() {
         philosopher.biography = context.resources.getString(
             context.resources.getIdentifier(
                 descriptionStringName,
+                "string",
+                context.packageName
+            )
+        )
+    }
+
+    private fun addDescription(philosopherBranch: PhilosophyBranch, context: Context) {
+        philosopherBranch.branchDescription = context.resources.getString(
+            context.resources.getIdentifier(
+                philosopherBranch.branchNameAsLower,
                 "string",
                 context.packageName
             )

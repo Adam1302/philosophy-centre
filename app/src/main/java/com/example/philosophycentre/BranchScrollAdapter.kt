@@ -36,7 +36,10 @@ class BranchScrollAdapter(
     override fun onBindViewHolder(holder: BranchScrollViewHolder, position: Int) {
         val item = dataset[position]
         holder.branchNameTextView.text = item.name
-        holder.branchInterestsTextView.text = "TEMPORARY LIST, ..., AH"
+        holder.branchInterestsTextView.text = android.text.TextUtils.join(
+            ",",
+            item.interestedPhilosophers.map { philosopher -> philosopher.name }
+        )
         // holder.branchInterestsTextView.text = context.resources.getString(item.attributionResourceId)
         //holder.philosopherInterestsTextView.text = android.text.TextUtils.join(",", item.interests)
 

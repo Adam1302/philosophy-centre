@@ -11,6 +11,10 @@ class Philosopher(val name: String, val interests: List<PhilosophyBranch>) {
     lateinit var biography: String
     // private val quotes = mutableListOf<String>()
 
+    init {
+        attachToBranches()
+    }
+
     private fun getLastNameLowerCase(): String {
         for (idx in name.length - 1 downTo 0) {
             if (name[idx] == ' ' || name[idx] == '-') {
@@ -18,6 +22,12 @@ class Philosopher(val name: String, val interests: List<PhilosophyBranch>) {
             }
         }
         return name.lowercase()
+    }
+
+    private fun attachToBranches() {
+        for (branch in interests) {
+            branch.interestedPhilosophers.add(this)
+        }
     }
 
     companion object {

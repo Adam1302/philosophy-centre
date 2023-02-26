@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.philosophycentre.databinding.FragmentWelcomeBinding
+import com.example.philosophycentre.dataclasses.philosopherList
 import com.example.philosophycentre.model.Philosopher
 import com.example.philosophycentre.model.PhilosophyBranch
 import com.example.philosophycentre.model.PhilosophyViewModel
@@ -85,41 +86,9 @@ class WelcomeFragment: Fragment() {
             )
         )
 
-        sharedViewModel.addPhilosopher(
-            Philosopher(
-                "Friedrich Nietzsche",
-                listOf("Philology", "Ethics/Morality", "Aesthetics", "Ontology", "Philosophy of Religion"),
-                requireContext()
-            )
-        )
-        sharedViewModel.addPhilosopher(
-            Philosopher(
-                "Socrates",
-                listOf("Epistemology", "Ethics/Morality", "Teleology"),
-                requireContext()
-            )
-        )
-        sharedViewModel.addPhilosopher(
-            Philosopher(
-                "Voltaire",
-                listOf("Political Philosophy", "Social Philosophy", "Literature"),
-                requireContext()
-            )
-        )
-        sharedViewModel.addPhilosopher(
-            Philosopher(
-                "Plato",
-                listOf("Epistemology", "Ethics/Morality", "Metaphysics", "Political Philosophy"),
-                requireContext()
-            )
-        )
-        sharedViewModel.addPhilosopher(
-            Philosopher(
-                "Boethius",
-                listOf("Fate", "Epistemology", "Theology"),
-                requireContext()
-            )
-        )
+        for (philosopher in philosopherList) {
+            sharedViewModel.addPhilosopher(philosopher, requireContext())
+        }
     }
 
     override fun onDestroyView() {

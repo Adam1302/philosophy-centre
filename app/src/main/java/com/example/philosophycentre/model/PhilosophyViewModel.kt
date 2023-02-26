@@ -1,6 +1,8 @@
 package com.example.philosophycentre.model
 
+import android.content.Context
 import android.util.Log
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 
 class PhilosophyViewModel : ViewModel() {
@@ -14,16 +16,46 @@ class PhilosophyViewModel : ViewModel() {
         branchList.add(philosophyBranch)
     }
 
-    fun addPhilosopher(philosopher: Philosopher) {
+    fun addPhilosopher(philosopher: Philosopher, context: Context) {
         philosopherList.add(philosopher)
 
-        addQuotes(philosopher.name, philosopher.quotes)
+        populateQuoteList(philosopher, context)
+        addDescription(philosopher, context)
     }
 
-    private fun addQuotes(philosopherName: String, addedQuoteList: List<Int>) {
-        for (quoteID in addedQuoteList) {
+    private fun addDescription(philosopher: Philosopher, context: Context) {
+        val descriptionStringName: String = philosopher.lastNameLower + "_desc"
+        philosopher.biography = context.resources.getString(
+            context.resources.getIdentifier(
+                descriptionStringName,
+                "string",
+                context.packageName
+            )
+        )
+    }
+
+    private fun populateQuoteList(philosopher: Philosopher, context: Context) {
+        var quoteCounter = 1
+
+        while (true) {
+            val stringName: String = philosopher.lastNameLower + quoteCounter.toString()
+            val quoteResID: Int = context.resources.getIdentifier(
+                stringName,
+                "string",
+                context.packageName
+            )
+            if (quoteResID == 0) {
+                break
+            } else {
+                // quotes.add(context.resources.getString(quoteResID))
+                philosopher.quotes.add(quoteResID)
+            }
+            ++quoteCounter
+        }
+
+        for (quoteID in philosopher.quotes) {
             fullQuoteList.add(
-                Quote(quoteID, philosopherName)
+                Quote(quoteID, philosopher.name)
             )
         }
     }

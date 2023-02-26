@@ -40,7 +40,10 @@ class PhilosopherProfileFragment : Fragment() {
             viewModel = sharedViewModel
             philosopherName.text = philosopher.name
             philosopherDesc.text = philosopher.biography
-            philosopherInterests.text = android.text.TextUtils.join(",", philosopher.interests)
+            philosopherInterests.text = android.text.TextUtils.join(
+                ",",
+                philosopher.interests.map { branch -> branch.name }
+            )
         }
         /*
         recyclerView = binding!!.recyclerView

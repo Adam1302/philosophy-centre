@@ -37,7 +37,10 @@ class PhilosopherScrollAdapter(
         val item = dataset[position]
         holder.philosopherNameTextView.text = item.name
         // holder.quoteAttributionView.text = context.resources.getString(item.attributionResourceId)
-        holder.philosopherInterestsTextView.text = android.text.TextUtils.join(",", item.interests)
+        holder.philosopherInterestsTextView.text = android.text.TextUtils.join(
+            ",",
+                    item.interests.map { branch -> branch.name }
+        )
 
         holder.philosopherItem.setOnClickListener {
             philosopherListClickListener.onPhilosopherListItemClick(item)

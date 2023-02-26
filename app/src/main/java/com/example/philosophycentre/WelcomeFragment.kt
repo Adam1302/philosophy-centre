@@ -10,7 +10,8 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.philosophycentre.databinding.FragmentWelcomeBinding
 import com.example.philosophycentre.dataclasses.philosopherList
-import com.example.philosophycentre.dataclasses.philosophyBranchList
+import com.example.philosophycentre.dataclasses.philosophyBranchMap
+import com.example.philosophycentre.dataclasses.philosophyBranchMap
 import com.example.philosophycentre.model.Philosopher
 import com.example.philosophycentre.model.PhilosophyBranch
 import com.example.philosophycentre.model.PhilosophyViewModel
@@ -38,7 +39,7 @@ class WelcomeFragment: Fragment() {
 
         binding?.welcomeFragment = this
 
-        for (branch in philosophyBranchList) {
+        for (branch in philosophyBranchMap.values) {
             sharedViewModel.addPhilosophyBranch(branch, requireContext())
         }
 

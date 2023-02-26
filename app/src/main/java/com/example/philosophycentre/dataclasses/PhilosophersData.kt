@@ -1,26 +1,46 @@
 package com.example.philosophycentre.dataclasses
 
 import com.example.philosophycentre.model.Philosopher
+import com.example.philosophycentre.model.PhilosophyBranch
 
 val philosopherList : List<Philosopher> = listOf(
     Philosopher(
         "Friedrich Nietzsche",
-        listOf("Philology", "Ethics/Morality", "Aesthetics", "Ontology", "Philosophy of Religion")
+        listOf<PhilosophyBranch>(
+            philosophyBranchMap["Ethics"]!!,
+            philosophyBranchMap["Aesthetics"]!!,
+            philosophyBranchMap["Axiology"]!!
+        )
     ),
     Philosopher(
         "Socrates",
-        listOf("Epistemology", "Ethics/Morality", "Teleology")
+        listOf<PhilosophyBranch>(
+            philosophyBranchMap["Ethics"]!!,
+            philosophyBranchMap["Epistemology"]!!,
+            philosophyBranchMap["Metaphysics"]!!
+        )
     ),
     Philosopher(
         "Voltaire",
-        listOf("Political Philosophy", "Social Philosophy", "Literature")
+        listOf<PhilosophyBranch>(
+            philosophyBranchMap["Political Philosophy"]!!
+        )
     ),
     Philosopher(
         "Plato",
-        listOf("Epistemology", "Ethics/Morality", "Metaphysics", "Political Philosophy")
+        listOf<PhilosophyBranch>(
+            philosophyBranchMap["Ethics"]!!,
+            philosophyBranchMap["Epistemology"]!!,
+            philosophyBranchMap["Political Philosophy"]!!,
+            philosophyBranchMap["Metaphysics"]!!,
+            philosophyBranchMap["Axiology"]!!
+        )
     ),
     Philosopher(
         "Boethius",
-        listOf("Fate", "Epistemology", "Theology")
+        listOf<PhilosophyBranch>(
+            philosophyBranchMap["Ethics"]!!,
+            philosophyBranchMap["Epistemology"]!!
+        )
     )
 )

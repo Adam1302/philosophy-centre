@@ -27,17 +27,17 @@ class MainMenuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding?.menuButtonQuoteScroller?.setOnClickListener {
-            findNavController().navigate(R.id.action_mainMenuFragment_to_quoteScrollFragment)
-        }
-        binding?.menuButtonPhilosophicalBranches?.setOnClickListener {
-            findNavController().navigate(R.id.action_mainMenuFragment_to_branchScrollFragment)
-        }
-        binding?.menuButtonPhilosophers?.setOnClickListener {
-            findNavController().navigate(R.id.action_mainMenuFragment_to_philosopherScrollFragment)
-        }
-
         binding?.apply {
+            menuButtonQuoteScroller.setOnClickListener {
+                findNavController().navigate(R.id.action_mainMenuFragment_to_quoteScrollFragment)
+            }
+            menuButtonPhilosophicalBranches.setOnClickListener {
+                findNavController().navigate(R.id.action_mainMenuFragment_to_branchScrollFragment)
+            }
+            menuButtonPhilosophers.setOnClickListener {
+                findNavController().navigate(R.id.action_mainMenuFragment_to_philosopherScrollFragment)
+            }
+
             lifecycleOwner = viewLifecycleOwner
             mainMenuFragment = this@MainMenuFragment
             viewModel = sharedViewModel

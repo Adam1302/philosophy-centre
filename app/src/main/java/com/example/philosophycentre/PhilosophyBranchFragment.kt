@@ -38,7 +38,7 @@ class PhilosophyBranchFragment : Fragment() {
             viewModel = sharedViewModel
             branchName.text = philosophyBranch.name
             branchInterested.text = android.text.TextUtils.join(
-                ",",
+                ", ",
                 philosophyBranch.interestedPhilosophers.map { philosopher -> philosopher.name }
             )
             branchDescription.text = philosophyBranch.branchDescription

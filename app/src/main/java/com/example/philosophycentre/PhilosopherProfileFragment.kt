@@ -41,7 +41,7 @@ class PhilosopherProfileFragment : Fragment() {
             philosopherName.text = philosopher.name
             philosopherDesc.text = philosopher.biography
             philosopherInterests.text = android.text.TextUtils.join(
-                ",",
+                ", ",
                 philosopher.interests.map { branch -> branch.name }
             )
         }

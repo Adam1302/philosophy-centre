@@ -45,16 +45,18 @@ class PhilosopherScrollFragment : Fragment(), PhilosopherListClickListener {
         }
 
         recyclerView = binding!!.recyclerView
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        recyclerView.adapter = PhilosopherScrollAdapter(
-            requireContext(),
-            sharedViewModel.philosopherList,
-            philosopherListClickListener
-        )
 
-        recyclerView.addItemDecoration(
-            DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
-        )
+        recyclerView.apply {
+            layoutManager = LinearLayoutManager(requireContext())
+            adapter = PhilosopherScrollAdapter(
+                requireContext(),
+                sharedViewModel.philosopherList,
+                philosopherListClickListener
+            )
+            addItemDecoration(
+                DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
+            )
+        }
     }
 
     override fun onDestroyView() {

@@ -35,17 +35,15 @@ class BranchScrollAdapter(
 
     override fun onBindViewHolder(holder: BranchScrollViewHolder, position: Int) {
         val item = dataset[position]
-        holder.branchNameTextView.text = item.name
-        holder.branchInterestsTextView.text = android.text.TextUtils.join(
-            ",",
-            item.interestedPhilosophers.map { philosopher -> philosopher.name }
-        )
-        // holder.branchInterestsTextView.text = context.resources.getString(item.attributionResourceId)
-        //holder.philosopherInterestsTextView.text = android.text.TextUtils.join(",", item.interests)
-
-        holder.branchItem.setOnClickListener {
-            branchListClickListener.onBranchListItemClick(item)
-            // findNavController().navigate(R.id.action_philosopherScrollFragment_to_philosopherProfileFragment)
+        holder.apply {
+            branchNameTextView.text = item.name
+            branchInterestsTextView.text = android.text.TextUtils.join(
+                ", ",
+                item.interestedPhilosophers.map { philosopher -> philosopher.name }
+            )
+            branchItem.setOnClickListener {
+                branchListClickListener.onBranchListItemClick(item)
+            }
         }
     }
 

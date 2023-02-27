@@ -39,12 +39,14 @@ class QuoteScrollFragment : Fragment() {
         }
 
         recyclerView = binding!!.recyclerView
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        recyclerView.adapter = QuoteScrollAdapter(requireContext(), sharedViewModel.fullQuoteList)
 
-        recyclerView.addItemDecoration(
-            DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
-        )
+        recyclerView.apply{
+            layoutManager = LinearLayoutManager(requireContext())
+            adapter = QuoteScrollAdapter(requireContext(), sharedViewModel.fullQuoteList)
+            addItemDecoration(
+                DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
+            )
+        }
     }
 
     override fun onDestroyView() {

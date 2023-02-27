@@ -38,18 +38,18 @@ class PhilosopherScrollAdapter(
 
     override fun onBindViewHolder(holder: PhilosopherScrollViewHolder, position: Int) {
         val item = dataset[position]
-        holder.philosopherImageView.setImageResource(
-            getPhilosopherImageResource(item.lastNameLower)
-        )
-        holder.philosopherNameTextView.text = item.name
-        holder.philosopherInterestsTextView.text = android.text.TextUtils.join(
-            ",",
-                    item.interests.map { branch -> branch.name }
-        )
-
-        holder.philosopherItem.setOnClickListener {
-            philosopherListClickListener.onPhilosopherListItemClick(item)
-            // findNavController().navigate(R.id.action_philosopherScrollFragment_to_philosopherProfileFragment)
+        holder.apply {
+            philosopherImageView.setImageResource(
+                getPhilosopherImageResource(item.lastNameLower)
+            )
+            philosopherNameTextView.text = item.name
+            philosopherInterestsTextView.text = android.text.TextUtils.join(
+                ", ",
+                item.interests.map { branch -> branch.name }
+            )
+            philosopherItem.setOnClickListener {
+                philosopherListClickListener.onPhilosopherListItemClick(item)
+            }
         }
     }
 

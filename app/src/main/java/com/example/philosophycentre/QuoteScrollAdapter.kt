@@ -32,9 +32,10 @@ class QuoteScrollAdapter(
 
     override fun onBindViewHolder(holder: QuoteScrollViewHolder, position: Int) {
         val item = dataset[position]
-        holder.quoteTextView.text = context.resources.getString(item.textResourceId)
-        // holder.quoteAttributionView.text = context.resources.getString(item.attributionResourceId)
-        holder.quoteAttributionView.text = item.attributionResource
+        holder.apply{
+            quoteTextView.text = context.resources.getString(item.textResourceId)
+            quoteAttributionView.text = item.attributionResource
+        }
     }
 
     override fun getItemCount(): Int {

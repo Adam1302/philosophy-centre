@@ -6,16 +6,6 @@
     <string name="philosophical_branches">Philosophical Branches</string>
     <string name="schools_of_thought">Schools of Thought</string>
 
-    <string name="plato_quote_disclaimer">Many quotes attributed to Plato do not accurately represent
-        his dispositions. In his works, very rarely did Plato express explicitly his beliefs;
-        rather, he preferred writing dialogues in which participants explored competing ideas, and,
-        in doing so, built towards a more extensive and precise conclusion. Thus, Plato spent a majority
-        of his works pondering ideas he ultimately did not agree with, but rather wanted to analyze
-        to find snippets of truth, resulting in a great number of attributed quotes stemming from such
-        concentrated and conscious reflections rather than genuine views. It is therefore preferrable to,
-        as Plato himself would have it, refrain from mindlessly quoting, and instead read and consider
-        his intellectual journeys in their fullness through his dialogues.</string>
-
     <!-- Branch Description -->
     <string name="ethics_desc">
         Ethics Description
@@ -40,17 +30,20 @@
     </string>
 
     <!-- Philosopher Description -->
-    <string name="nietzsche_desc">
-        Nietzsche Description
-    </string>
     <string name="aristotle_desc">
         Aristotle Description
     </string>
+    <string name="plato_desc">Many quotes attributed to Plato do not accurately represent
+        his dispositions. In his works, very rarely did Plato express explicitly his beliefs;
+        rather, he preferred writing dialogues in which participants explored competing ideas, and,
+        in doing so, built towards a more extensive and precise conclusion. Thus, Plato spent a majority
+        of his works pondering ideas he ultimately did not agree with, but rather wanted to analyze
+        to find snippets of truth, resulting in a great number of attributed quotes stemming from such
+        concentrated and conscious reflections rather than genuine views. It is therefore preferrable to,
+        as Plato himself would have it, refrain from mindlessly quoting, and instead read and consider
+        his intellectual journeys in their fullness through his dialogues.</string>
     <string name="socrates_desc">
         Socrates Description
-    </string>
-    <string name="plato_desc">
-        Plato Description
     </string>
     <string name="aurelius_desc">
         Aurelius Description
@@ -103,6 +96,61 @@
     <string name="schiller_desc">
         Schiller Description
     </string>
+    <string name="hegel_desc">
+        Hegel Description
+    </string>
+    <string name="schopenhauer_desc">
+        Schopenhauer Description
+    </string>
+    <string name="emerson_desc">
+        Emerson Description
+    </string>
+    <string name="mill_desc">
+        Mill Description
+    </string>
+    <string name="kierkegaard_desc">
+        Kierkegaard Description
+    </string>
+    <string name="thoreau_desc">
+        Thoreau Description
+    </string>
+    <string name="james_desc">
+        James Description
+    </string>
+    <string name="nietzsche_desc">
+        Nietzsche Description
+    </string>
+    <string name="freud_desc">
+        Freud Description
+    </string>
+    <string name="jung_desc">
+        Jung Description
+    </string>
+    <string name="santayana_desc">
+        Santayana Description
+    </string>
+    <string name="russell_desc">
+        Russell Description
+    </string>
+    <string name="wittgenstein_desc">
+        Wittgenstein Description
+    </string>
+    <string name="heidegger_desc">
+        Heidegger Description
+    </string>
+    <string name="sartre_desc">
+        Sartre Description
+    </string>
+    <string name="rand_desc">
+        Rand Description
+    </string>
+    <string name="arendt_desc">
+        Arendt Description
+    </string>
+    <string name="camus_desc">
+        Camus Description
+    </string>
+
 
     <!--Quotes-->
     <string name="aristotle1">It is the mark of an educated mind to be able to entertain a thought without accepting it.</string>

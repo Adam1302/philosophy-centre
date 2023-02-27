@@ -55,19 +55,6 @@ class BranchScrollFragment : Fragment(), BranchListClickListener {
                 DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
             )
         }
-        /*
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        recyclerView.adapter = BranchScrollAdapter(
-            requireContext(),
-            sharedViewModel.branchList,
-            branchListClickListener
-        )
-
-        recyclerView.addItemDecoration(
-            DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
-        )
-        
-         */
     }
 
     override fun onDestroyView() {

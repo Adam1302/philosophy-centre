@@ -6,7 +6,8 @@ import androidx.annotation.StringRes
 data class Quote(
     @StringRes val textResourceId: Int,
    // @StringRes val attributionResourceId: Int
-    val attributionResource: String
+    val attributionResource: String,
+    var favourite: Boolean
 ) {
 
 }

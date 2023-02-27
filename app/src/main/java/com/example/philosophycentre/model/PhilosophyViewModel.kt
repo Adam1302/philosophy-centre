@@ -67,7 +67,7 @@ class PhilosophyViewModel : ViewModel() {
 
         for (quoteID in philosopher.quotes) {
             fullQuoteList.add(
-                Quote(quoteID, philosopher.name)
+                Quote(quoteID, philosopher.name, false)
             )
         }
     }

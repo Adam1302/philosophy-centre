@@ -71,7 +71,6 @@ class QuoteScrollFragment : Fragment(), FavouriteQuoteClickListener {
         } else {
             sharedViewModel.favouriteQuoteList.remove(quote)
         }
-        Log.d(TAG, "onFavouriteQuoteClick: ${sharedViewModel.favouriteQuoteList}")
     }
 
     companion object {

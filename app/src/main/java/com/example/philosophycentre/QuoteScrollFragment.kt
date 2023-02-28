@@ -11,13 +11,17 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.philosophycentre.databinding.FragmentQuoteScrollBinding
+import com.example.philosophycentre.model.FavouriteQuoteClickListener
+import com.example.philosophycentre.model.PhilosopherListClickListener
 import com.example.philosophycentre.model.PhilosophyViewModel
+import com.example.philosophycentre.model.Quote
 
-class QuoteScrollFragment : Fragment() {
+class QuoteScrollFragment : Fragment(), FavouriteQuoteClickListener {
     private var binding: FragmentQuoteScrollBinding? = null
     private var isLinearLayoutManager = true
     private val sharedViewModel: PhilosophyViewModel by activityViewModels()
     private lateinit var recyclerView: RecyclerView
+    private lateinit var favouriteQuoteClickListener: FavouriteQuoteClickListener
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,6 +30,9 @@ class QuoteScrollFragment : Fragment() {
     ): View? {
         val fragmentBinding = FragmentQuoteScrollBinding.inflate(inflater, container, false)
         binding = fragmentBinding
+
+        favouriteQuoteClickListener = this
+
         return fragmentBinding.root
     }
 
@@ -42,7 +49,11 @@ class QuoteScrollFragment : Fragment() {
 
         recyclerView.apply{
             layoutManager = LinearLayoutManager(requireContext())
-            adapter = QuoteScrollAdapter(requireContext(), sharedViewModel.fullQuoteList)
+            adapter = QuoteScrollAdapter(
+                requireContext(),
+                sharedViewModel.fullQuoteList,
+                favouriteQuoteClickListener
+            )
             addItemDecoration(
                 DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
             )
@@ -52,6 +63,15 @@ class QuoteScrollFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         binding = null
+    }
+
+    override fun onFavouriteQuoteClick(quote: Quote) {
+        if (quote.favourite) {
+            sharedViewModel.favouriteQuoteList.add(quote)
+        } else {
+            sharedViewModel.favouriteQuoteList.remove(quote)
+        }
+        Log.d(TAG, "onFavouriteQuoteClick: ${sharedViewModel.favouriteQuoteList}")
     }
 
     companion object {

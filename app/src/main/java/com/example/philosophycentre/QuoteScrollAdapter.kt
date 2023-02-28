@@ -9,11 +9,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.example.philosophycentre.model.FavouriteQuoteClickListener
 import com.example.philosophycentre.model.Quote
 
 class QuoteScrollAdapter(
     private val context: Context,
-    private val dataset: List<Quote>
+    private val dataset: List<Quote>,
+    private val favouriteQuoteClickListener: FavouriteQuoteClickListener
 ) : RecyclerView.Adapter<QuoteScrollAdapter.QuoteScrollViewHolder>() {
     val bookmarkOpenResource: Int = context.resources.getIdentifier(
         "ic_bookmark_open",
@@ -47,6 +49,13 @@ class QuoteScrollAdapter(
         holder.apply{
             quoteTextView.text = context.resources.getString(item.textResourceId)
             quoteAttributionView.text = item.attributionResource
+            quoteFavouriteButton.setImageResource(
+                if (item.favourite) {
+                    R.drawable.ic_bookmark_filled
+                } else {
+                    R.drawable.ic_bookmark_open
+                }
+            )
             quoteFavouriteButton.setOnClickListener {
                 if (item.favourite) {
                     quoteFavouriteButton.setImageResource(bookmarkOpenResource)
@@ -55,6 +64,7 @@ class QuoteScrollAdapter(
                     quoteFavouriteButton.setImageResource(bookmarkFilledResource)
                     item.favourite = true
                 }
+                favouriteQuoteClickListener.onFavouriteQuoteClick(item)
             }
         }
     }

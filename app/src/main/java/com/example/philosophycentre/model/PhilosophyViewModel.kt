@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 
 class PhilosophyViewModel : ViewModel() {
     val fullQuoteList: MutableList<Quote> = mutableListOf<Quote>()
+    val favouriteQuoteList: MutableList<Quote> = mutableListOf<Quote>()
     val philosopherList: MutableList<Philosopher> = mutableListOf<Philosopher>()
     val branchList: MutableList<PhilosophyBranch> = mutableListOf<PhilosophyBranch>()
     var currentPhilosopher: Philosopher? = null

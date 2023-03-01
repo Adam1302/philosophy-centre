@@ -37,6 +37,9 @@ class MainMenuFragment : Fragment() {
             menuButtonPhilosophers.setOnClickListener {
                 findNavController().navigate(R.id.action_mainMenuFragment_to_philosopherScrollFragment)
             }
+            menuButtonFavouriteQuotes.setOnClickListener {
+                findNavController().navigate(R.id.action_mainMenuFragment_to_favouriteQuotesFragment)
+            }
 
             lifecycleOwner = viewLifecycleOwner
             mainMenuFragment = this@MainMenuFragment

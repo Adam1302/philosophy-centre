@@ -5,6 +5,7 @@
     <string name="quote_scroller">Quote Scroller</string>
     <string name="philosophical_branches">Philosophical Branches</string>
     <string name="schools_of_thought">Schools of Thought</string>
+    <string name="favourite_quotes">Favourite Quotes</string>
 
     <!-- Branch Description -->
     <string name="ethics_desc">

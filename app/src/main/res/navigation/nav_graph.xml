@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_branchScrollFragment"
             app:destination="@id/branchScrollFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_favouriteQuotesFragment"
+            app:destination="@id/favouriteQuotesFragment" />
     </fragment>
     <fragment
         android:id="@+id/quoteScrollFragment"
@@ -61,4 +64,9 @@
         android:name="com.example.philosophycentre.PhilosophyBranchFragment"
         android:label="fragment_philosophy_branch"
         tools:layout="@layout/fragment_philosophy_branch" />
+    <fragment
+        android:id="@+id/favouriteQuotesFragment"
+        android:name="com.example.philosophycentre.FavouriteQuotesFragment"
+        android:label="fragment_favourite_quotes"
+        tools:layout="@layout/fragment_favourite_quotes" />
 </navigation>

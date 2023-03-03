@@ -9,14 +9,14 @@
 
     <!-- Branch Description -->
     <string name="ethics_desc">
-        Ethics is a philosophical branche concerned with what is right and wrong. It seeks to form a system by which we can judge our actions as right or wrong, or comments on the nature of "right" and "wrong" themselves. Through its insistent discerning of right from wrong, ethics seeks to provide a universal guide for the well-lived life.
+        Ethics is a philosophical branch concerned with what is right and wrong. It seeks to form a system by which we can judge our actions as right or wrong, or comments on the nature of "right" and "wrong" themselves. Through its insistent discerning of right from wrong, ethics seeks to provide a universal guide for the well-lived life.
         \n\nThere are three main branches of ethics:\n\n
         \tFirst, Normative Ethics attempts to find a universal system by which we can judge "what we ought to do". It comtemplates moral laws and their derivations, testing them both through logical argument and hypothetical scenarios.\n\n
         \tNext, Applied Ethics considers the moral arguments for and against specific, real-world issues. Its scope can stretch anywhere from smaller dilemmas such as giving to beggars or cheating to help a friend to larger issues including war, veganism, and capital punishment. As a result, Applied ethics sees significant crossover with other disciplines including science, economics, and geography.\n\n
         \tFinally, Meta-Ethics contemplates the nature of ethics itself, seeking to answer questions such as what ethcis actually is, whether sound ethical systems can exist, what value they have, how they are formed, etc. In other words, it seeks to understand the presuppositions of ethics, be they psychological, linguistic, or epistemological.
     </string>
     <string name="aesthetics_desc">
-        Aesthetics Description
+        Aesthetics is the philosophy of art, beauty, and taste. Through the analysis of these subjects and their relation to the human condition, it attempts to capture what it is exactly that can touch the heart through the senses, and why it does so. Sharing significant intersection with painting, sculpture, music, literature, film, etc., aesthetics attempts to interpret art and its universal grip on the human heart.
     </string>
     <string name="political_philosophy_desc">
         Political Philosophy Description

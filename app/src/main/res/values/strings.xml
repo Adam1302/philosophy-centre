@@ -25,13 +25,13 @@
         Epistemology is the philosophical study of knowledge. Broadly, it is concerned with a) the nature of knowledge (ex. what does it mean to "know", is knowledge certain, is knowledge an end or a means to an end, etc.), and b) the extent of our knowledge (ex. how much can we know, from where do we know, is human knowledge always bound).
     </string>
     <string name="axiology_desc">
-        Axiology Description
+        Axiology is the study of value, seeking to understand what value is, why we find some things more valuable than others, and from where we derive value. The "value" studied includes but is not limited to ethical, aesthetic, and economic, but the study attempts to find a unifying, universal understanding of value and meaning.
     </string>
     <string name="metaphysics_desc">
-        Metaphysics Description
+        Metaphysics, perhaps the most difficult philosophical branch to define, is the study of first principles (foundational truths) of being, logic, and reality. A deeply theoretical yet graspable study, it deals with questions of consciousness, potentiality vs. actuality, existence and essence, mind and matter, etc.; more simply, it attempts to tackle the underlying basis of our existence and our essence (What is "it" that exists, and what is "it" like)?
     </string>
     <string name="logic_desc">
-        Logic Description
+        Logic is a branch of philosophy that studies the nature, scope, and applications of logical thought. It can be theoretical, such as the creation and analysis of a logical system, or applied, such as the logical analysis of an argument (also known as formal vs. informal logic). Deeply connected with mathematics and computer science, logic usually involves symbols, equations, and laws, drawing many STEM-interested mind to the world of philosophy.
     </string>
 
     <!-- Philosopher Description -->

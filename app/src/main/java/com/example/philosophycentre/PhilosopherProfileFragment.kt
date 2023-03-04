@@ -38,6 +38,7 @@ class PhilosopherProfileFragment : Fragment() {
             lifecycleOwner = viewLifecycleOwner
             philosopherProfileFragment = this@PhilosopherProfileFragment
             viewModel = sharedViewModel
+            philosopherPicture.setImageResource(getPhilosopherImageResource())
             philosopherName.text = philosopher.name
             philosopherDesc.text = philosopher.biography
             philosopherInterests.text = android.text.TextUtils.join(
@@ -59,6 +60,15 @@ class PhilosopherProfileFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         binding = null
+    }
+
+    private fun getPhilosopherImageResource(): Int {
+        val imageName: String = "philosopher_${philosopher.lastNameLower}"
+        return requireContext().resources.getIdentifier(
+            imageName,
+            "drawable",
+            requireContext().packageName
+        )
     }
 
     companion object {

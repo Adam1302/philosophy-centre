@@ -20,23 +20,34 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_height="wrap_content"
-            android:layout_width="match_parent">
+            android:layout_width="match_parent"
+            android:layout_marginVertical="16dp"
+            android:orientation="vertical"
+            android:gravity="center">
 
-            <TextView
-                android:id="@+id/branch_name"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginHorizontal="40dp"
-                android:layout_marginTop="36dp"
-                android:textAlignment="center"
-                android:textFontWeight="800"
-                android:textSize="@dimen/heading2_textSize"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/branch_picture"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:src="@color/white"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+                <TextView
+                    android:id="@+id/branch_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textFontWeight="600"
+                    android:textSize="@dimen/heading3_textSize" />
+
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/branch_interested"
@@ -45,9 +56,14 @@
                 android:layout_marginTop="36dp"
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="4dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/branch_name" />
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:padding="16dp" />
 
             <TextView
                 android:id="@+id/branch_description"
@@ -56,11 +72,8 @@
                 android:layout_marginTop="36dp"
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="4dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/branch_interested"
-                app:layout_constraintBottom_toBottomOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                />
+        </LinearLayout>
 
     </ScrollView>
 

@@ -17,7 +17,8 @@ import com.google.android.material.card.MaterialCardView
 class PhilosopherScrollAdapter(
     private val context: Context,
     private val dataset: List<Philosopher>,
-    private val philosopherListClickListener: PhilosopherListClickListener
+    private val philosopherListClickListener: PhilosopherListClickListener,
+    private val gridView: Boolean = false
 ) : RecyclerView.Adapter<PhilosopherScrollAdapter.PhilosopherScrollViewHolder>() {
 
     class PhilosopherScrollViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
@@ -31,7 +32,11 @@ class PhilosopherScrollAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PhilosopherScrollViewHolder {
         val layout = LayoutInflater
             .from(parent.context)
-            .inflate(R.layout.philosopher_item, parent, false)
+            .inflate(
+                if (gridView) R.layout.philosopher_item_grid else R.layout.philosopher_item,
+                parent,
+                false
+            )
 
         return PhilosopherScrollViewHolder(layout)
     }
@@ -43,10 +48,12 @@ class PhilosopherScrollAdapter(
                 getPhilosopherImageResource(item.lastNameLower)
             )
             philosopherNameTextView.text = item.name
-            philosopherInterestsTextView.text = android.text.TextUtils.join(
-                ", ",
-                item.interests.map { branch -> branch.name }
-            )
+            if (!gridView) {
+                philosopherInterestsTextView.text = android.text.TextUtils.join(
+                    ", ",
+                    item.interests.map { branch -> branch.name }
+                )
+            }
             philosopherItem.setOnClickListener {
                 philosopherListClickListener.onPhilosopherListItemClick(item)
             }

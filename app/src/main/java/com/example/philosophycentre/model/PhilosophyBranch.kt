@@ -18,7 +18,7 @@ class PhilosophyBranch(val name: String) {
             }
         }
         Log.d(TAG, "getNameAsResources: $resourceName")
-        return resourceName.lowercase() + "_desc"
+        return resourceName.lowercase()
     }
 
     companion object {

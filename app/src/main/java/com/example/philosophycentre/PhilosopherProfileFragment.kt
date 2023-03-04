@@ -6,18 +6,23 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.philosophycentre.databinding.FragmentPhilosopherProfileBinding
 import com.example.philosophycentre.databinding.FragmentPhilosopherScrollBinding
+import com.example.philosophycentre.model.BranchListClickListener
 import com.example.philosophycentre.model.Philosopher
+import com.example.philosophycentre.model.PhilosophyBranch
 import com.example.philosophycentre.model.PhilosophyViewModel
 
-class PhilosopherProfileFragment : Fragment() {
+class PhilosopherProfileFragment : Fragment(), BranchListClickListener {
     private var binding: FragmentPhilosopherProfileBinding? = null
     private val sharedViewModel: PhilosophyViewModel by activityViewModels()
+    private lateinit var recyclerView: RecyclerView
     private lateinit var philosopher: Philosopher
+    private lateinit var branchListClickListener: BranchListClickListener
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,6 +31,7 @@ class PhilosopherProfileFragment : Fragment() {
     ): View? {
         val fragmentBinding = FragmentPhilosopherProfileBinding.inflate(inflater, container, false)
         binding = fragmentBinding
+        branchListClickListener = this
         return fragmentBinding.root
     }
 
@@ -46,20 +52,37 @@ class PhilosopherProfileFragment : Fragment() {
                 philosopher.interests.map { branch -> branch.name }
             )
         }
-        /*
-        recyclerView = binding!!.recyclerView
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        recyclerView.adapter = PhilosopherScrollAdapter(requireContext(), sharedViewModel.philosopherList)
 
-        recyclerView.addItemDecoration(
-            DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
-        )
-         */
+        recyclerView = binding!!.recyclerView
+
+        recyclerView.apply {
+            layoutManager = LinearLayoutManager(
+                requireContext(),
+                LinearLayoutManager.HORIZONTAL,
+                false
+            )
+            adapter = BranchScrollAdapter(
+                requireContext(),
+                philosopher.interests,
+                branchListClickListener,
+                true
+            )
+            addItemDecoration(
+                DividerItemDecoration(context, DividerItemDecoration.HORIZONTAL)
+            )
+        }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         binding = null
+    }
+
+    override fun onBranchListItemClick(philosopherBranch: PhilosophyBranch) {
+        sharedViewModel.currentBranch = philosopherBranch
+        findNavController().navigate(
+            R.id.action_philosopherProfileFragment_to_philosophyBranchFragment
+        )
     }
 
     private fun getPhilosopherImageResource(): Int {

@@ -40,7 +40,7 @@ class PhilosophyViewModel : ViewModel() {
     private fun addDescription(philosopherBranch: PhilosophyBranch, context: Context) {
         philosopherBranch.branchDescription = context.resources.getString(
             context.resources.getIdentifier(
-                philosopherBranch.branchNameAsLower,
+                philosopherBranch.branchNameAsLower + "_desc",
                 "string",
                 context.packageName
             )

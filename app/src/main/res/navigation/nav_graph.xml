@@ -49,7 +49,11 @@
         android:id="@+id/philosopherProfileFragment"
         android:name="com.example.philosophycentre.PhilosopherProfileFragment"
         android:label="fragment_philosopher_profile"
-        tools:layout="@layout/fragment_philosopher_profile" />
+        tools:layout="@layout/fragment_philosopher_profile" >
+        <action
+            android:id="@+id/action_philosopherProfileFragment_to_philosophyBranchFragment"
+            app:destination="@id/philosophyBranchFragment" />
+    </fragment>
     <fragment
         android:id="@+id/branchScrollFragment"
         android:name="com.example.philosophycentre.BranchScrollFragment"

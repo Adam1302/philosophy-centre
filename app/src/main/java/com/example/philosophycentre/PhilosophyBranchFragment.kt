@@ -45,10 +45,7 @@ class PhilosophyBranchFragment : Fragment(), PhilosopherListClickListener {
             viewModel = sharedViewModel
             branchPicture.setImageResource(getBranchImageResource())
             branchName.text = philosophyBranch.name
-            branchInterested.text = android.text.TextUtils.join(
-                ", ",
-                philosophyBranch.interestedPhilosophers.map { philosopher -> philosopher.name }
-            )
+            branchInterested.text = "Philosophers interested in ${philosophyBranch.name}:"
             branchDescription.text = philosophyBranch.branchDescription
         }
 
@@ -60,7 +57,7 @@ class PhilosophyBranchFragment : Fragment(), PhilosopherListClickListener {
                 LinearLayoutManager.HORIZONTAL,
                 false
             )
-            adapter =PhilosopherScrollAdapter(
+            adapter = PhilosopherScrollAdapter(
                 requireContext(),
                 philosophyBranch.interestedPhilosophers,
                 philosopherListClickListener,

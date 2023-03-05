@@ -28,15 +28,17 @@
             android:gravity="center">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center_vertical">
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/philosopher_picture"
                     android:layout_width="124dp"
                     android:layout_height="124dp"
+                    android:scaleType="fitXY"
                     android:src="@drawable/light_bulb"
                     app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
 
@@ -44,6 +46,7 @@
                     android:id="@+id/philosopher_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
                     android:textFontWeight="600"
                     android:textSize="@dimen/heading3_textSize" />
 
@@ -51,11 +54,13 @@
 
             <TextView
                 android:id="@+id/philosopher_interests"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="12dp"
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="4dp"
+                android:textSize="16sp"
                 />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -69,8 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="4dp"
+                android:layout_marginHorizontal="16dp"
                 />
         </LinearLayout>
 

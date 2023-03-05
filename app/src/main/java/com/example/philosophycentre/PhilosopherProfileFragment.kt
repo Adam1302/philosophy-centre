@@ -47,10 +47,7 @@ class PhilosopherProfileFragment : Fragment(), BranchListClickListener {
             philosopherPicture.setImageResource(getPhilosopherImageResource())
             philosopherName.text = philosopher.name
             philosopherDesc.text = philosopher.biography
-            philosopherInterests.text = android.text.TextUtils.join(
-                ", ",
-                philosopher.interests.map { branch -> branch.name }
-            )
+            philosopherInterests.text = "Areas of interest:"
         }
 
         recyclerView = binding!!.recyclerView

@@ -35,5 +35,8 @@ val philosophyBranchMap: Map<String, PhilosophyBranch> = mapOf(
     Pair("Epistemology", PhilosophyBranch("Epistemology")),
     Pair("Axiology", PhilosophyBranch("Axiology")),
     Pair("Metaphysics", PhilosophyBranch("Metaphysics")),
-    Pair("Logic", PhilosophyBranch("Logic"))
+    Pair("Logic", PhilosophyBranch("Logic")),
+    Pair("Philosophy of Science", PhilosophyBranch("Philosophy of Science")),
+    Pair("Philosophy of Religion", PhilosophyBranch("Philosophy of Religion")),
+    Pair("Theology", PhilosophyBranch("Theology"))
 )

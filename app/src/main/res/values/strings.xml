@@ -33,6 +33,15 @@
     <string name="logic_desc">
         Logic is a branch of philosophy that studies the nature, scope, and applications of logical thought. It can be theoretical, such as the creation and analysis of a logical system, or applied, such as the logical analysis of an argument (also known as formal vs. informal logic). Deeply connected with mathematics and computer science, logic usually involves symbols, equations, and laws, drawing many STEM-interested mind to the world of philosophy.
     </string>
+    <string name="philosophy_of_science_desc">
+        philosophy_of_science_desc
+    </string>
+    <string name="philosophy_of_religion_desc">
+        philosophy_of_religion_desc
+    </string>
+    <string name="theology_desc">
+        theology_desc
+    </string>
 
     <!-- Philosopher Description -->
     <string name="aristotle_desc">

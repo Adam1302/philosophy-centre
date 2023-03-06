@@ -20,7 +20,7 @@ import com.example.philosophycentre.model.PhilosophyViewModel
 class PhilosopherProfileFragment : Fragment(), BranchListClickListener {
     private var binding: FragmentPhilosopherProfileBinding? = null
     private val sharedViewModel: PhilosophyViewModel by activityViewModels()
-    private lateinit var recyclerView: RecyclerView
+    private lateinit var recyclerViewBranches: RecyclerView
     private lateinit var philosopher: Philosopher
     private lateinit var branchListClickListener: BranchListClickListener
 
@@ -47,12 +47,12 @@ class PhilosopherProfileFragment : Fragment(), BranchListClickListener {
             philosopherPicture.setImageResource(getPhilosopherImageResource())
             philosopherName.text = philosopher.name
             philosopherDesc.text = philosopher.biography
-            philosopherInterests.text = "Areas of interest:"
+            philosopherInterests.text = getString(R.string.areas_of_interest)
         }
 
-        recyclerView = binding!!.recyclerView
+        recyclerViewBranches = binding!!.recyclerViewBranches
 
-        recyclerView.apply {
+        recyclerViewBranches.apply {
             layoutManager = LinearLayoutManager(
                 requireContext(),
                 LinearLayoutManager.HORIZONTAL,

@@ -8,5 +8,8 @@
     <dimen name="heading2_width">125dp</dimen>
     <dimen name="heading3_textSize">24sp</dimen>
     <dimen name="heading3_height">48dp</dimen>
-    <dimen name="heading3_width">125dp</dimen>
+    <dimen name="heading3_width">100dp</dimen>
+    <dimen name="heading4_textSize">20sp</dimen>
+    <dimen name="heading4_height">40dp</dimen>
+    <dimen name="heading4_width">80dp</dimen>
 </resources>

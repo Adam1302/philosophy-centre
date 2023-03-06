@@ -51,7 +51,7 @@ class QuoteScrollFragment : Fragment(), FavouriteQuoteClickListener {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = QuoteScrollAdapter(
                 requireContext(),
-                sharedViewModel.fullQuoteList,
+                sharedViewModel.fullQuoteList.shuffled(),
                 favouriteQuoteClickListener
             )
             addItemDecoration(

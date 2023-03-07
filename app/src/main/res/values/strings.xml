@@ -34,13 +34,13 @@
         Logic is a branch of philosophy that studies the nature, scope, and applications of logical thought. It can be theoretical, such as the creation and analysis of a logical system, or applied, such as the logical analysis of an argument (also known as formal vs. informal logic). Deeply connected with mathematics and computer science, logic usually involves symbols, equations, and laws, drawing many STEM-interested mind to the world of philosophy.
     </string>
     <string name="philosophy_of_science_desc">
-        philosophy_of_science_desc
+        The Philosophy of Science is the study of the foundational beliefs, methodological inquiries, and societal impact of science. Generally, philosophy of science attempts to unite the physical and the mental, the quantifiable and the immeasurable, the scientific fact and the moral law. It can be specific and focused, such as a discussion on the impact of cloning, or more broad and abstract, such as an examination of the relationship between moral systems and psychological activity.
     </string>
     <string name="philosophy_of_religion_desc">
-        philosophy_of_religion_desc
+        The Philosophy of Religion is an abstract examination of the philosophical and psychological nature of religious belief. Often dealing with abysses of rich symbolism and evolutionary ideas, it attempts to analyze and identify the evolution of religious belief and tradition as well as their effectiveness and value both to the individual and to the group. It is important to note that the philosophy of religion is different than theology; whereas theology attempts to evaluate and contemplate religious and theistic claims within a closed religious system with pre-accepted presumptions, the philosophy of religion takes a more overarching, wider look at religion, including ideological evolution, truth value, psychological value, social impact, and unifying comparisons.
     </string>
     <string name="theology_desc">
-        theology_desc
+        Theology is the study of the divine. Often working within the confines of a religious framework, it attempts to unite tradition and scripture with philosophical logic, and ponders the nature and attributes of the divine and its relationship to the individual.
     </string>
 
     <!-- Philosopher Description -->

@@ -61,16 +61,21 @@ class PhilosophyViewModel : ViewModel() {
                 break
             } else {
                 // quotes.add(context.resources.getString(quoteResID))
-                philosopher.quotes.add(quoteResID)
+                Quote(quoteResID, philosopher.name, false).apply {
+                    philosopher.quotes.add(this)
+                    fullQuoteList.add(this)
+                }
+                // philosopher.quotes.add(quoteResID)
             }
             ++quoteCounter
         }
-
+/*
         for (quoteID in philosopher.quotes) {
             fullQuoteList.add(
                 Quote(quoteID, philosopher.name, false)
             )
         }
+ */
     }
 
     companion object {

@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.Log
 
 class Philosopher(val name: String, val interests: List<PhilosophyBranch>) {
-    val quotes = mutableListOf<Int>()
+    val quotes = mutableListOf<Quote>()
     private val _lastNameLower = getLastNameLowerCase()
     val lastNameLower: String
         get() = _lastNameLower

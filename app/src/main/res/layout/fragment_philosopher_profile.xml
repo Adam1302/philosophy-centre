@@ -23,7 +23,7 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_marginVertical="16dp"
+            android:layout_marginVertical="12dp"
             android:orientation="vertical"
             android:gravity="center">
 
@@ -56,10 +56,10 @@
                 android:id="@+id/philosopher_interests"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginStart="12dp"
                 android:paddingHorizontal="10dp"
-                android:paddingVertical="4dp"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 />
 
@@ -69,15 +69,15 @@
                 android:layout_height="wrap_content"
                 android:clipToPadding="false" />
 
-
             <TextView
                 android:id="@+id/philosopher_quotes_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginStart="12dp"
                 android:paddingHorizontal="10dp"
-                android:paddingVertical="4dp"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 />
 
@@ -86,6 +86,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="false" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
 
             <!--
             <TextView

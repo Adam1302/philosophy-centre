@@ -81,7 +81,7 @@ class PhilosopherProfileFragment : Fragment(), BranchListClickListener, Favourit
         recyclerViewQuotes.apply {
             layoutManager = LinearLayoutManager(
                 requireContext(),
-                LinearLayoutManager.HORIZONTAL,
+                LinearLayoutManager.VERTICAL,
                 false
             )
             adapter = QuoteScrollAdapter(

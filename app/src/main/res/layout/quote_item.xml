@@ -14,12 +14,15 @@
 
         <TextView
             android:id="@+id/quote_item_text"
+            android:fontFamily="@font/source_sans_pro_italic"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="12dp"
             android:scaleType="centerCrop"
-            android:textAppearance="?attr/textAppearanceBody1" />
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textSize="20sp" />
 
         <View
             android:layout_width="0dp"
@@ -29,10 +32,12 @@
         <TextView
             android:layout_gravity="end"
             android:id="@+id/quote_item_attribution"
+            android:fontFamily="@font/source_sans_pro_regular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:textAppearance="?attr/textAppearanceBody2" />
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textSize="15sp" />
 
         <ImageView
             android:id="@+id/quote_item_favourite_button"
@@ -40,7 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="4dp"
-            android:src="@drawable/ic_bookmark_open" />
+            android:src="@drawable/ic_bookmark_open"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 

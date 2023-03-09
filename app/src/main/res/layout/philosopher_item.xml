@@ -18,15 +18,15 @@
             app:cardCornerRadius="8dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" >
+
             <ImageView
                 android:id="@+id/philosopher_item_image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:scaleType="fitXY"
                 android:src="@color/white" />
+
         </androidx.cardview.widget.CardView>
-
-
 
         <TextView
             android:id="@+id/philosopher_item_name"

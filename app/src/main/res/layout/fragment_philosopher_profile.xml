@@ -39,7 +39,7 @@
                     android:layout_width="124dp"
                     android:layout_height="124dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/light_bulb"
+                    android:src="@color/white"
                     app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
 
                 <TextView

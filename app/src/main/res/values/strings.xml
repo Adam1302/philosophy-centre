@@ -6,6 +6,10 @@
     <string name="philosophical_branches">Philosophical Branches</string>
     <string name="schools_of_thought">Schools of Thought</string>
     <string name="favourite_quotes">Favourite Quotes</string>
+    <string name="areas_of_interest">Areas of interest:</string>
+    <string name="philosopher_quotes_title">Quotes:</string>
+    <string name="enter">Enter</string>
+    <string name="branch_interested_title">Philosophers interested in %1$s:</string>
 
     <!-- Branch Description -->
     <string name="ethics_desc">
@@ -816,8 +820,6 @@
     <string name="camus16">“Have you no hope at all? And do you really live with the thought that when you die, you die, and nothing remains?" "Yes," I said.” </string>
     <string name="camus17">Beauty is unbearable, drives us to despair, offering us for a minute the glimpse of an eternity that we should like to stretch out over the whole of time.</string>
     <string name="camus18">I know simply that the sky will last longer than I.</string>
-    <string name="areas_of_interest">Areas of interest:</string>
-    <string name="philosopher_quotes_title">Quotes:</string>
 
 
 </resources>

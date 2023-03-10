@@ -45,7 +45,7 @@ class PhilosophyBranchFragment : Fragment(), PhilosopherListClickListener {
             viewModel = sharedViewModel
             branchPicture.setImageResource(getBranchImageResource())
             branchName.text = philosophyBranch.name
-            branchInterested.text = "Philosophers interested in ${philosophyBranch.name}:"
+            branchInterested.text = getString(R.string.branch_interested_title, philosophyBranch.name)
             branchDescription.text = philosophyBranch.branchDescription
         }
 

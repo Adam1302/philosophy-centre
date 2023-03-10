@@ -3,9 +3,9 @@
 <com.google.android.material.card.MaterialCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/single_philosopher_item"
-    android:layout_width="128dp"
-    android:layout_height="156dp"
-    android:layout_margin="8dp">
+    android:layout_width="@dimen/width_grid_card"
+    android:layout_height="@dimen/height_grid_card"
+    android:layout_margin="@dimen/margin_mid_small">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/philosopher_item_image"
-            android:layout_width="112dp"
-            android:layout_height="112dp"
+            android:layout_width="@dimen/dimen_grid_pic"
+            android:layout_height="@dimen/dimen_grid_pic"
             android:scaleType="fitXY"
             />
 
@@ -31,9 +31,9 @@
             android:id="@+id/philosopher_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="6dp"
+            android:layout_marginBottom="@dimen/margin_six_dp"
             android:textAlignment="center"
-            android:textSize="18sp" />
+            android:textSize="@dimen/text_size_mid_small" />
 
     </LinearLayout>
 

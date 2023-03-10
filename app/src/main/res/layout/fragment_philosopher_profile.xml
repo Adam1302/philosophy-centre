@@ -23,21 +23,21 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_marginVertical="12dp"
+            android:layout_marginVertical="@dimen/margin_medium"
             android:orientation="vertical"
             android:gravity="center">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="12dp"
+                android:layout_marginHorizontal="@dimen/margin_medium"
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/philosopher_picture"
-                    android:layout_width="124dp"
-                    android:layout_height="124dp"
+                    android:layout_width="@dimen/dimen_profile_pic"
+                    android:layout_height="@dimen/dimen_profile_pic"
                     android:scaleType="fitXY"
                     android:src="@color/white"
                     app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
@@ -46,9 +46,9 @@
                     android:id="@+id/philosopher_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="@dimen/margin_medium"
                     android:textFontWeight="600"
-                    android:textSize="@dimen/heading3_textSize"
+                    android:textSize="@dimen/text_size_mid_large"
                     android:fontFamily="@font/source_sans_pro_bold_italic"
                     android:textColor="@color/black" />
 
@@ -58,11 +58,11 @@
                 android:id="@+id/philosopher_interests"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="16dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginVertical="@dimen/margin_mid_large"
+                android:layout_marginStart="@dimen/margin_large"
                 android:fontFamily="@font/source_sans_pro_semi_bold"
                 android:textColor="@color/black"
-                android:textSize="22sp"
+                android:textSize="@dimen/text_size_medium"
                 />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -75,23 +75,23 @@
                 android:id="@+id/philosopher_quotes_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_mid_large"
+                android:layout_marginStart="@dimen/margin_large"
                 android:fontFamily="@font/source_sans_pro_semi_bold"
                 android:textColor="@color/black"
-                android:textSize="22sp"
+                android:textSize="@dimen/text_size_medium"
                 />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view_quotes"
                 android:layout_width="match_parent"
-                android:layout_height="500dp"
+                android:layout_height="@dimen/height_quotes_in_profile"
                 android:clipToPadding="false" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="30dp"/>
+                android:layout_height="@dimen/height_extra_bottom"/>
 
             <!--
             <TextView

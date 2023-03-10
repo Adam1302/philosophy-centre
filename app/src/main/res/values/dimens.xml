@@ -28,4 +28,16 @@
     <dimen name="height_philosopher_scroll_image">80dp</dimen>
     <dimen name="text_size_mid_large">24sp</dimen>
     <dimen name="margin_small">4dp</dimen>
+    <dimen name="dimen_profile_pic">124dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="height_quotes_in_profile">500dp</dimen>
+    <dimen name="height_extra_bottom">30dp</dimen>
+    <dimen name="text_size_mid_small">18sp</dimen>
+    <dimen name="margin_six_dp">6dp</dimen>
+    <dimen name="dimen_grid_pic">112dp</dimen>
+    <dimen name="width_grid_card">128dp</dimen>
+    <dimen name="height_grid_card">156dp</dimen>
+    <dimen name="dimen_welcome_logo">196dp</dimen>
+    <dimen name="margin_huge">36dp</dimen>
+    <dimen name="text_size_x_large">30dp</dimen>
 </resources>

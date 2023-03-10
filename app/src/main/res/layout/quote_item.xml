@@ -5,7 +5,7 @@
     android:id="@+id/single_quote_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_margin="@dimen/margin_mid_small">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,11 +18,11 @@
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginVertical="12dp"
+            android:layout_marginHorizontal="@dimen/margin_mid_large"
+            android:layout_marginVertical="@dimen/margin_medium"
             android:scaleType="centerCrop"
             android:textAppearance="?attr/textAppearanceBody1"
-            android:textSize="20sp" />
+            android:textSize="@dimen/text_size_medium" />
 
         <View
             android:layout_width="0dp"
@@ -35,18 +35,19 @@
             android:fontFamily="@font/source_sans_pro_regular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dp"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:padding="@dimen/padding_small"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textSize="15sp" />
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small" />
 
         <ImageView
             android:id="@+id/quote_item_favourite_button"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="4dp"
-            android:src="@drawable/ic_bookmark_open"
-            android:textColor="@color/black" />
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_bookmark_open" />
 
     </LinearLayout>
 

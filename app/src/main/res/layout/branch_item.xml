@@ -6,24 +6,26 @@
     android:id="@+id/single_branch_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_margin="@dimen/margin_mid_small">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="96dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical">
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="8dp" >
+            app:cardCornerRadius="@dimen/radius_scroll_item" >
 
             <ImageView
                 android:id="@+id/branch_item_logo"
-                android:layout_width="72dp"
-                android:layout_height="72dp"
-                android:scaleType="fitXY" />
+                android:layout_width="@dimen/width_philosopher_scroll_image"
+                android:layout_height="@dimen/height_philosopher_scroll_image"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:scaleType="fitXY"
+                app:cardCornerRadius="@dimen/radius_scroll_item" />
 
         </androidx.cardview.widget.CardView>
 
@@ -33,9 +35,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="@dimen/margin_medium"
             android:textColor="@color/black"
-            android:textSize="@dimen/heading3_textSize" />
+            android:textSize="@dimen/text_size_mid_large" />
 
     </LinearLayout>
 

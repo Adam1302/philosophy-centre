@@ -29,7 +29,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="12dp"
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
 
@@ -45,7 +45,7 @@
                     android:id="@+id/branch_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
+                    android:layout_marginStart="12dp"
                     android:textFontWeight="600"
                     android:textSize="@dimen/heading3_textSize"
                     android:fontFamily="@font/source_sans_pro_bold_italic"

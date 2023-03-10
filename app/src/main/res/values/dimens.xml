@@ -12,4 +12,20 @@
     <dimen name="heading4_textSize">20sp</dimen>
     <dimen name="heading4_height">40dp</dimen>
     <dimen name="heading4_width">80dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_mid_large">20dp</dimen>
+    <dimen name="margin_mid_small">8dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="width_main_menu_button">325dp</dimen>
+    <dimen name="radius_main_menu_button">12dp</dimen>
+    <dimen name="margin_top_main_menu">200dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="radius_scroll_item">8dp</dimen>
+    <dimen name="width_philosopher_scroll_image">80dp</dimen>
+    <dimen name="height_philosopher_scroll_image">80dp</dimen>
+    <dimen name="text_size_mid_large">24sp</dimen>
+    <dimen name="margin_small">4dp</dimen>
 </resources>
